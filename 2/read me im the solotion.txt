@@ -1,0 +1,6 @@
+1-install id3 by 
+pip install decision-tree-id3
+2-install graphviz
+follow this step -->https://bobswift.atlassian.net/wiki/spaces/GVIZ/pages/20971549/How+to+install+Graphviz+software
+3-see this example
+https://svaante.github.io/decision-tree-id3/auto_examples/plot_graph.html#sphx-glr-auto-examples-plot-graph-py

@@ -1,0 +1,6480 @@
+digraph ID3_Tree {
+"0" [shape=box, style=filled, label="odor
+Info: 0.49
+Entropy: 0.97
+Dominant class: [  0 941]
+", weight=1]
+"1" [shape=box, style=filled, label="habitat
+Info: 0.46
+Entropy: 0.50
+Dominant class: [  0 105]
+", weight=2]
+0 -> 1 [ label = "a"];
+"2" [shape=box, style=filled, label="0
+(11)
+", weight=3]
+1 -> 2 [ label = "d"];
+"3" [shape=box, style=filled, label="gillcolor
+Info: 0.52
+Entropy: 0.58
+Dominant class: [ 0 50]
+", weight=3]
+1 -> 3 [ label = "g"];
+"4" [shape=box, style=filled, label="0
+(13)
+", weight=4]
+3 -> 4 [ label = "g"];
+"5" [shape=box, style=filled, label="0
+(50/8)
+", weight=4]
+3 -> 5 [ label = "h"];
+"6" [shape=box, style=filled, label="sporeprintcolor
+Info: 0.46
+Entropy: 0.65
+Dominant class: [0 5]
+", weight=4]
+3 -> 6 [ label = "k"];
+"7" [shape=box, style=filled, label="0
+(5/1)
+", weight=5]
+6 -> 7 [ label = "h"];
+"8" [shape=box, style=filled, label="0
+(3)
+", weight=5]
+6 -> 8 [ label = "k"];
+"9" [shape=box, style=filled, label="0
+(2/1)
+", weight=5]
+6 -> 9 [ label = "n"];
+"10" [shape=box, style=filled, label="0
+(5/1)
+", weight=5]
+6 -> 10 [ label = "r"];
+"11" [shape=box, style=filled, label="0
+(5/1)
+", weight=5]
+6 -> 11 [ label = "u"];
+"12" [shape=box, style=filled, label="0
+(5/1)
+", weight=5]
+6 -> 12 [ label = "w"];
+"13" [shape=box, style=filled, label="sporeprintcolor
+Info: 0.39
+Entropy: 0.59
+Dominant class: [ 0 12]
+", weight=4]
+3 -> 13 [ label = "n"];
+"14" [shape=box, style=filled, label="0
+(12/2)
+", weight=5]
+13 -> 14 [ label = "h"];
+"15" [shape=box, style=filled, label="0
+(8)
+", weight=5]
+13 -> 15 [ label = "k"];
+"16" [shape=box, style=filled, label="capcolor
+Info: 0.46
+Entropy: 0.92
+Dominant class: [0 4]
+", weight=5]
+13 -> 16 [ label = "n"];
+"17" [shape=box, style=filled, label="0
+(4/2)
+", weight=6]
+16 -> 17 [ label = "b"];
+"18" [shape=box, style=filled, label="0
+(4/2)
+", weight=6]
+16 -> 18 [ label = "c"];
+"19" [shape=box, style=filled, label="0
+(4/2)
+", weight=6]
+16 -> 19 [ label = "e"];
+"20" [shape=box, style=filled, label="0
+(4/2)
+", weight=6]
+16 -> 20 [ label = "g"];
+"21" [shape=box, style=filled, label="0
+(1)
+", weight=6]
+16 -> 21 [ label = "n"];
+"22" [shape=box, style=filled, label="0
+(4/2)
+", weight=6]
+16 -> 22 [ label = "p"];
+"23" [shape=box, style=filled, label="0
+(2)
+", weight=6]
+16 -> 23 [ label = "w"];
+"24" [shape=box, style=filled, label="0
+(2/1)
+", weight=6]
+16 -> 24 [ label = "y"];
+"25" [shape=box, style=filled, label="0
+(12/2)
+", weight=5]
+13 -> 25 [ label = "r"];
+"26" [shape=box, style=filled, label="0
+(12/2)
+", weight=5]
+13 -> 26 [ label = "u"];
+"27" [shape=box, style=filled, label="0
+(12/2)
+", weight=5]
+13 -> 27 [ label = "w"];
+"28" [shape=box, style=filled, label="sporeprintcolor
+Info: 0.50
+Entropy: 0.81
+Dominant class: [0 6]
+", weight=4]
+3 -> 28 [ label = "p"];
+"29" [shape=box, style=filled, label="0
+(6/2)
+", weight=5]
+28 -> 29 [ label = "h"];
+"30" [shape=box, style=filled, label="0
+(4)
+", weight=5]
+28 -> 30 [ label = "k"];
+"31" [shape=box, style=filled, label="0
+(2/2)
+", weight=5]
+28 -> 31 [ label = "n"];
+"32" [shape=box, style=filled, label="0
+(6/2)
+", weight=5]
+28 -> 32 [ label = "r"];
+"33" [shape=box, style=filled, label="0
+(6/2)
+", weight=5]
+28 -> 33 [ label = "u"];
+"34" [shape=box, style=filled, label="0
+(6/2)
+", weight=5]
+28 -> 34 [ label = "w"];
+"35" [shape=box, style=filled, label="0
+(50/8)
+", weight=4]
+3 -> 35 [ label = "r"];
+"36" [shape=box, style=filled, label="0
+(50/8)
+", weight=4]
+3 -> 36 [ label = "u"];
+"37" [shape=box, style=filled, label="sporeprintcolor
+Info: 0.45
+Entropy: 0.67
+Dominant class: [ 0 14]
+", weight=4]
+3 -> 37 [ label = "w"];
+"38" [shape=box, style=filled, label="0
+(14/3)
+", weight=5]
+37 -> 38 [ label = "h"];
+"39" [shape=box, style=filled, label="stalkroot
+Info: 0.49
+Entropy: 0.95
+Dominant class: [0 5]
+", weight=5]
+37 -> 39 [ label = "k"];
+"40" [shape=box, style=filled, label="0
+(5/3)
+", weight=6]
+39 -> 40 [ label = "b"];
+"41" [shape=box, style=filled, label="capcolor
+Info: 0.46
+Entropy: 0.65
+Dominant class: [0 5]
+", weight=6]
+39 -> 41 [ label = "c"];
+"42" [shape=box, style=filled, label="0
+(5/1)
+", weight=7]
+41 -> 42 [ label = "b"];
+"43" [shape=box, style=filled, label="0
+(5/1)
+", weight=7]
+41 -> 43 [ label = "c"];
+"44" [shape=box, style=filled, label="0
+(5/1)
+", weight=7]
+41 -> 44 [ label = "e"];
+"45" [shape=box, style=filled, label="0
+(5/1)
+", weight=7]
+41 -> 45 [ label = "g"];
+"46" [shape=box, style=filled, label="0
+(5/1)
+", weight=7]
+41 -> 46 [ label = "n"];
+"47" [shape=box, style=filled, label="0
+(5/1)
+", weight=7]
+41 -> 47 [ label = "p"];
+"48" [shape=box, style=filled, label="0
+(3)
+", weight=7]
+41 -> 48 [ label = "w"];
+"49" [shape=box, style=filled, label="population
+Info: 0.00
+Entropy: 0.92
+Dominant class: [0 2]
+", weight=7]
+41 -> 49 [ label = "y"];
+"50" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+49 -> 50 [ label = "a"];
+"51" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+49 -> 51 [ label = "c"];
+"52" [shape=box, style=filled, label="0
+(2)
+", weight=8]
+49 -> 52 [ label = "n"];
+"53" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+49 -> 53 [ label = "s"];
+"54" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+49 -> 54 [ label = "v"];
+"55" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+49 -> 55 [ label = "y"];
+"56" [shape=box, style=filled, label="0
+(5/3)
+", weight=6]
+39 -> 56 [ label = "e"];
+"57" [shape=box, style=filled, label="1
+(2)
+", weight=6]
+39 -> 57 [ label = "r"];
+"58" [shape=box, style=filled, label="0
+(9)
+", weight=5]
+37 -> 58 [ label = "n"];
+"59" [shape=box, style=filled, label="0
+(14/3)
+", weight=5]
+37 -> 59 [ label = "r"];
+"60" [shape=box, style=filled, label="0
+(14/3)
+", weight=5]
+37 -> 60 [ label = "u"];
+"61" [shape=box, style=filled, label="0
+(14/3)
+", weight=5]
+37 -> 61 [ label = "w"];
+"62" [shape=box, style=filled, label="0
+(50/8)
+", weight=4]
+3 -> 62 [ label = "y"];
+"63" [shape=box, style=filled, label="0
+(105/13)
+", weight=3]
+1 -> 63 [ label = "l"];
+"64" [shape=box, style=filled, label="capcolor
+Info: 0.53
+Entropy: 0.58
+Dominant class: [ 0 31]
+", weight=3]
+1 -> 64 [ label = "m"];
+"65" [shape=box, style=filled, label="0
+(31/5)
+", weight=4]
+64 -> 65 [ label = "b"];
+"66" [shape=box, style=filled, label="0
+(31/5)
+", weight=4]
+64 -> 66 [ label = "c"];
+"67" [shape=box, style=filled, label="0
+(31/5)
+", weight=4]
+64 -> 67 [ label = "e"];
+"68" [shape=box, style=filled, label="0
+(31/5)
+", weight=4]
+64 -> 68 [ label = "g"];
+"69" [shape=box, style=filled, label="0
+(31/5)
+", weight=4]
+64 -> 69 [ label = "n"];
+"70" [shape=box, style=filled, label="0
+(31/5)
+", weight=4]
+64 -> 70 [ label = "p"];
+"71" [shape=box, style=filled, label="sporeprintcolor
+Info: 0.68
+Entropy: 0.79
+Dominant class: [ 0 13]
+", weight=4]
+64 -> 71 [ label = "w"];
+"72" [shape=box, style=filled, label="0
+(13/4)
+", weight=5]
+71 -> 72 [ label = "h"];
+"73" [shape=box, style=filled, label="gillcolor
+Info: 0.28
+Entropy: 0.47
+Dominant class: [0 9]
+", weight=5]
+71 -> 73 [ label = "k"];
+"74" [shape=box, style=filled, label="0
+(2)
+", weight=6]
+73 -> 74 [ label = "g"];
+"75" [shape=box, style=filled, label="0
+(9/1)
+", weight=6]
+73 -> 75 [ label = "h"];
+"76" [shape=box, style=filled, label="capshape
+Info: 0.67
+Entropy: 0.92
+Dominant class: [0 2]
+", weight=6]
+73 -> 76 [ label = "k"];
+"77" [shape=box, style=filled, label="0
+(1/1)
+", weight=7]
+76 -> 77 [ label = "b"];
+"78" [shape=box, style=filled, label="0
+(2/1)
+", weight=7]
+76 -> 78 [ label = "c"];
+"79" [shape=box, style=filled, label="0
+(2/1)
+", weight=7]
+76 -> 79 [ label = "f"];
+"80" [shape=box, style=filled, label="0
+(2/1)
+", weight=7]
+76 -> 80 [ label = "k"];
+"81" [shape=box, style=filled, label="0
+(2/1)
+", weight=7]
+76 -> 81 [ label = "s"];
+"82" [shape=box, style=filled, label="0
+(1)
+", weight=7]
+76 -> 82 [ label = "x"];
+"83" [shape=box, style=filled, label="0
+(3)
+", weight=6]
+73 -> 83 [ label = "n"];
+"84" [shape=box, style=filled, label="0
+(9/1)
+", weight=6]
+73 -> 84 [ label = "p"];
+"85" [shape=box, style=filled, label="0
+(9/1)
+", weight=6]
+73 -> 85 [ label = "r"];
+"86" [shape=box, style=filled, label="0
+(9/1)
+", weight=6]
+73 -> 86 [ label = "u"];
+"87" [shape=box, style=filled, label="0
+(2)
+", weight=6]
+73 -> 87 [ label = "w"];
+"88" [shape=box, style=filled, label="0
+(9/1)
+", weight=6]
+73 -> 88 [ label = "y"];
+"89" [shape=box, style=filled, label="0
+(4/3)
+", weight=5]
+71 -> 89 [ label = "n"];
+"90" [shape=box, style=filled, label="0
+(13/4)
+", weight=5]
+71 -> 90 [ label = "r"];
+"91" [shape=box, style=filled, label="0
+(13/4)
+", weight=5]
+71 -> 91 [ label = "u"];
+"92" [shape=box, style=filled, label="0
+(13/4)
+", weight=5]
+71 -> 92 [ label = "w"];
+"93" [shape=box, style=filled, label="capsurface
+Info: 0.23
+Entropy: 0.30
+Dominant class: [ 0 18]
+", weight=4]
+64 -> 93 [ label = "y"];
+"94" [shape=box, style=filled, label="0
+(18/1)
+", weight=5]
+93 -> 94 [ label = "f"];
+"95" [shape=box, style=filled, label="0
+(18/1)
+", weight=5]
+93 -> 95 [ label = "g"];
+"96" [shape=box, style=filled, label="gillcolor
+Info: 0.41
+Entropy: 0.54
+Dominant class: [0 7]
+", weight=5]
+93 -> 96 [ label = "s"];
+"97" [shape=box, style=filled, label="capshape
+Info: 0.69
+Entropy: 0.81
+Dominant class: [0 3]
+", weight=6]
+96 -> 97 [ label = "g"];
+"98" [shape=box, style=filled, label="sporeprintcolor
+Info: 0.67
+Entropy: 0.92
+Dominant class: [0 2]
+", weight=7]
+97 -> 98 [ label = "b"];
+"99" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+98 -> 99 [ label = "h"];
+"100" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+98 -> 100 [ label = "k"];
+"101" [shape=box, style=filled, label="population
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=8]
+98 -> 101 [ label = "n"];
+"102" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+101 -> 102 [ label = "a"];
+"103" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+101 -> 103 [ label = "c"];
+"104" [shape=box, style=filled, label="0
+(1)
+", weight=9]
+101 -> 104 [ label = "n"];
+"105" [shape=box, style=filled, label="1
+(1)
+", weight=9]
+101 -> 105 [ label = "s"];
+"106" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+101 -> 106 [ label = "v"];
+"107" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+101 -> 107 [ label = "y"];
+"108" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+98 -> 108 [ label = "r"];
+"109" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+98 -> 109 [ label = "u"];
+"110" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+98 -> 110 [ label = "w"];
+"111" [shape=box, style=filled, label="0
+(3/1)
+", weight=7]
+97 -> 111 [ label = "c"];
+"112" [shape=box, style=filled, label="0
+(3/1)
+", weight=7]
+97 -> 112 [ label = "f"];
+"113" [shape=box, style=filled, label="0
+(3/1)
+", weight=7]
+97 -> 113 [ label = "k"];
+"114" [shape=box, style=filled, label="0
+(3/1)
+", weight=7]
+97 -> 114 [ label = "s"];
+"115" [shape=box, style=filled, label="0
+(1)
+", weight=7]
+97 -> 115 [ label = "x"];
+"116" [shape=box, style=filled, label="0
+(7/1)
+", weight=6]
+96 -> 116 [ label = "h"];
+"117" [shape=box, style=filled, label="0
+(3)
+", weight=6]
+96 -> 117 [ label = "k"];
+"118" [shape=box, style=filled, label="0
+(7/1)
+", weight=6]
+96 -> 118 [ label = "n"];
+"119" [shape=box, style=filled, label="0
+(7/1)
+", weight=6]
+96 -> 119 [ label = "p"];
+"120" [shape=box, style=filled, label="0
+(7/1)
+", weight=6]
+96 -> 120 [ label = "r"];
+"121" [shape=box, style=filled, label="0
+(7/1)
+", weight=6]
+96 -> 121 [ label = "u"];
+"122" [shape=box, style=filled, label="0
+(1)
+", weight=6]
+96 -> 122 [ label = "w"];
+"123" [shape=box, style=filled, label="0
+(7/1)
+", weight=6]
+96 -> 123 [ label = "y"];
+"124" [shape=box, style=filled, label="0
+(11)
+", weight=5]
+93 -> 124 [ label = "y"];
+"125" [shape=box, style=filled, label="0
+(13)
+", weight=3]
+1 -> 125 [ label = "p"];
+"126" [shape=box, style=filled, label="0
+(105/13)
+", weight=3]
+1 -> 126 [ label = "u"];
+"127" [shape=box, style=filled, label="capcolor
+Info: 0.24
+Entropy: 0.31
+Dominant class: [ 1 51]
+", weight=2]
+0 -> 127 [ label = "c"];
+"128" [shape=box, style=filled, label="1
+(51/3)
+", weight=3]
+127 -> 128 [ label = "b"];
+"129" [shape=box, style=filled, label="1
+(51/3)
+", weight=3]
+127 -> 129 [ label = "c"];
+"130" [shape=box, style=filled, label="1
+(51/3)
+", weight=3]
+127 -> 130 [ label = "e"];
+"131" [shape=box, style=filled, label="gillspacing
+Info: 0.50
+Entropy: 0.68
+Dominant class: [1 9]
+", weight=3]
+127 -> 131 [ label = "g"];
+"132" [shape=box, style=filled, label="population
+Info: 0.67
+Entropy: 0.92
+Dominant class: [1 4]
+", weight=4]
+131 -> 132 [ label = "c"];
+"133" [shape=box, style=filled, label="1
+(4/2)
+", weight=5]
+132 -> 133 [ label = "a"];
+"134" [shape=box, style=filled, label="1
+(4/2)
+", weight=5]
+132 -> 134 [ label = "c"];
+"135" [shape=box, style=filled, label="1
+(4/2)
+", weight=5]
+132 -> 135 [ label = "n"];
+"136" [shape=box, style=filled, label="1
+(2)
+", weight=5]
+132 -> 136 [ label = "s"];
+"137" [shape=box, style=filled, label="1
+(2/2)
+", weight=5]
+132 -> 137 [ label = "v"];
+"138" [shape=box, style=filled, label="1
+(4/2)
+", weight=5]
+132 -> 138 [ label = "y"];
+"139" [shape=box, style=filled, label="1
+(5)
+", weight=4]
+131 -> 139 [ label = "w"];
+"140" [shape=box, style=filled, label="1
+(51/3)
+", weight=3]
+127 -> 140 [ label = "n"];
+"141" [shape=box, style=filled, label="gillcolor
+Info: 0.21
+Entropy: 0.30
+Dominant class: [ 1 18]
+", weight=3]
+127 -> 141 [ label = "p"];
+"142" [shape=box, style=filled, label="1
+(5)
+", weight=4]
+141 -> 142 [ label = "g"];
+"143" [shape=box, style=filled, label="1
+(18/1)
+", weight=4]
+141 -> 143 [ label = "h"];
+"144" [shape=box, style=filled, label="1
+(18/1)
+", weight=4]
+141 -> 144 [ label = "k"];
+"145" [shape=box, style=filled, label="1
+(6)
+", weight=4]
+141 -> 145 [ label = "n"];
+"146" [shape=box, style=filled, label="capsurface
+Info: 0.33
+Entropy: 0.65
+Dominant class: [1 5]
+", weight=4]
+141 -> 146 [ label = "p"];
+"147" [shape=box, style=filled, label="1
+(4)
+", weight=5]
+146 -> 147 [ label = "f"];
+"148" [shape=box, style=filled, label="1
+(5/1)
+", weight=5]
+146 -> 148 [ label = "g"];
+"149" [shape=box, style=filled, label="1
+(1/1)
+", weight=5]
+146 -> 149 [ label = "s"];
+"150" [shape=box, style=filled, label="1
+(5/1)
+", weight=5]
+146 -> 150 [ label = "y"];
+"151" [shape=box, style=filled, label="1
+(18/1)
+", weight=4]
+141 -> 151 [ label = "r"];
+"152" [shape=box, style=filled, label="1
+(2)
+", weight=4]
+141 -> 152 [ label = "u"];
+"153" [shape=box, style=filled, label="1
+(18/1)
+", weight=4]
+141 -> 153 [ label = "w"];
+"154" [shape=box, style=filled, label="1
+(18/1)
+", weight=4]
+141 -> 154 [ label = "y"];
+"155" [shape=box, style=filled, label="1
+(24)
+", weight=3]
+127 -> 155 [ label = "w"];
+"156" [shape=box, style=filled, label="1
+(51/3)
+", weight=3]
+127 -> 156 [ label = "y"];
+"157" [shape=box, style=filled, label="capcolor
+Info: 0.42
+Entropy: 0.44
+Dominant class: [  1 397]
+", weight=2]
+0 -> 157 [ label = "f"];
+"158" [shape=box, style=filled, label="capshape
+Info: 0.67
+Entropy: 0.70
+Dominant class: [ 1 26]
+", weight=3]
+157 -> 158 [ label = "b"];
+"159" [shape=box, style=filled, label="1
+(26/6)
+", weight=4]
+158 -> 159 [ label = "b"];
+"160" [shape=box, style=filled, label="1
+(26/6)
+", weight=4]
+158 -> 160 [ label = "c"];
+"161" [shape=box, style=filled, label="gillcolor
+Info: 0.66
+Entropy: 0.84
+Dominant class: [ 1 11]
+", weight=4]
+158 -> 161 [ label = "f"];
+"162" [shape=box, style=filled, label="1
+(11/4)
+", weight=5]
+161 -> 162 [ label = "g"];
+"163" [shape=box, style=filled, label="stalksurfacebelowring
+Info: 0.46
+Entropy: 0.65
+Dominant class: [1 5]
+", weight=5]
+161 -> 163 [ label = "h"];
+"164" [shape=box, style=filled, label="stalksurfaceabovering
+Info: 0.67
+Entropy: 0.92
+Dominant class: [1 2]
+", weight=6]
+163 -> 164 [ label = "f"];
+"165" [shape=box, style=filled, label="1
+(1)
+", weight=7]
+164 -> 165 [ label = "f"];
+"166" [shape=box, style=filled, label="1
+(2/1)
+", weight=7]
+164 -> 166 [ label = "k"];
+"167" [shape=box, style=filled, label="population
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=7]
+164 -> 167 [ label = "s"];
+"168" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+167 -> 168 [ label = "a"];
+"169" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+167 -> 169 [ label = "c"];
+"170" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+167 -> 170 [ label = "n"];
+"171" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+167 -> 171 [ label = "s"];
+"172" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+167 -> 172 [ label = "v"];
+"173" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+167 -> 173 [ label = "y"];
+"174" [shape=box, style=filled, label="1
+(2/1)
+", weight=7]
+164 -> 174 [ label = "y"];
+"175" [shape=box, style=filled, label="1
+(5/1)
+", weight=6]
+163 -> 175 [ label = "k"];
+"176" [shape=box, style=filled, label="1
+(3)
+", weight=6]
+163 -> 176 [ label = "s"];
+"177" [shape=box, style=filled, label="1
+(5/1)
+", weight=6]
+163 -> 177 [ label = "y"];
+"178" [shape=box, style=filled, label="1
+(11/4)
+", weight=5]
+161 -> 178 [ label = "k"];
+"179" [shape=box, style=filled, label="1
+(11/4)
+", weight=5]
+161 -> 179 [ label = "n"];
+"180" [shape=box, style=filled, label="1
+(3)
+", weight=5]
+161 -> 180 [ label = "p"];
+"181" [shape=box, style=filled, label="1
+(11/4)
+", weight=5]
+161 -> 181 [ label = "r"];
+"182" [shape=box, style=filled, label="1
+(11/4)
+", weight=5]
+161 -> 182 [ label = "u"];
+"183" [shape=box, style=filled, label="stalksurfacebelowring
+Info: 0.92
+Entropy: 1.00
+Dominant class: [0 3]
+", weight=5]
+161 -> 183 [ label = "w"];
+"184" [shape=box, style=filled, label="population
+Info: 0.00
+Entropy: 0.92
+Dominant class: [1 2]
+", weight=6]
+183 -> 184 [ label = "f"];
+"185" [shape=box, style=filled, label="1
+(2/1)
+", weight=7]
+184 -> 185 [ label = "a"];
+"186" [shape=box, style=filled, label="1
+(2/1)
+", weight=7]
+184 -> 186 [ label = "c"];
+"187" [shape=box, style=filled, label="1
+(2/1)
+", weight=7]
+184 -> 187 [ label = "n"];
+"188" [shape=box, style=filled, label="1
+(2)
+", weight=7]
+184 -> 188 [ label = "s"];
+"189" [shape=box, style=filled, label="0
+(1)
+", weight=7]
+184 -> 189 [ label = "v"];
+"190" [shape=box, style=filled, label="1
+(2/1)
+", weight=7]
+184 -> 190 [ label = "y"];
+"191" [shape=box, style=filled, label="0
+(3/3)
+", weight=6]
+183 -> 191 [ label = "k"];
+"192" [shape=box, style=filled, label="stalksurfaceabovering
+Info: 0.67
+Entropy: 0.92
+Dominant class: [0 2]
+", weight=6]
+183 -> 192 [ label = "s"];
+"193" [shape=box, style=filled, label="0
+(1)
+", weight=7]
+192 -> 193 [ label = "f"];
+"194" [shape=box, style=filled, label="0
+(2/1)
+", weight=7]
+192 -> 194 [ label = "k"];
+"195" [shape=box, style=filled, label="population
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=7]
+192 -> 195 [ label = "s"];
+"196" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+195 -> 196 [ label = "a"];
+"197" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+195 -> 197 [ label = "c"];
+"198" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+195 -> 198 [ label = "n"];
+"199" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+195 -> 199 [ label = "s"];
+"200" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+195 -> 200 [ label = "v"];
+"201" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+195 -> 201 [ label = "y"];
+"202" [shape=box, style=filled, label="0
+(2/1)
+", weight=7]
+192 -> 202 [ label = "y"];
+"203" [shape=box, style=filled, label="0
+(3/3)
+", weight=6]
+183 -> 203 [ label = "y"];
+"204" [shape=box, style=filled, label="1
+(11/4)
+", weight=5]
+161 -> 204 [ label = "y"];
+"205" [shape=box, style=filled, label="1
+(26/6)
+", weight=4]
+158 -> 205 [ label = "k"];
+"206" [shape=box, style=filled, label="1
+(26/6)
+", weight=4]
+158 -> 206 [ label = "s"];
+"207" [shape=box, style=filled, label="gillcolor
+Info: 0.38
+Entropy: 0.52
+Dominant class: [ 1 15]
+", weight=4]
+158 -> 207 [ label = "x"];
+"208" [shape=box, style=filled, label="1
+(15/2)
+", weight=5]
+207 -> 208 [ label = "g"];
+"209" [shape=box, style=filled, label="1
+(3)
+", weight=5]
+207 -> 209 [ label = "h"];
+"210" [shape=box, style=filled, label="1
+(15/2)
+", weight=5]
+207 -> 210 [ label = "k"];
+"211" [shape=box, style=filled, label="1
+(15/2)
+", weight=5]
+207 -> 211 [ label = "n"];
+"212" [shape=box, style=filled, label="stalksurfaceabovering
+Info: 0.61
+Entropy: 0.81
+Dominant class: [1 6]
+", weight=5]
+207 -> 212 [ label = "p"];
+"213" [shape=box, style=filled, label="1
+(3)
+", weight=6]
+212 -> 213 [ label = "f"];
+"214" [shape=box, style=filled, label="1
+(6/2)
+", weight=6]
+212 -> 214 [ label = "k"];
+"215" [shape=box, style=filled, label="population
+Info: 0.55
+Entropy: 0.97
+Dominant class: [1 3]
+", weight=6]
+212 -> 215 [ label = "s"];
+"216" [shape=box, style=filled, label="1
+(3/2)
+", weight=7]
+215 -> 216 [ label = "a"];
+"217" [shape=box, style=filled, label="1
+(3/2)
+", weight=7]
+215 -> 217 [ label = "c"];
+"218" [shape=box, style=filled, label="1
+(3/2)
+", weight=7]
+215 -> 218 [ label = "n"];
+"219" [shape=box, style=filled, label="habitat
+Info: 0.00
+Entropy: 0.92
+Dominant class: [0 2]
+", weight=7]
+215 -> 219 [ label = "s"];
+"220" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+219 -> 220 [ label = "d"];
+"221" [shape=box, style=filled, label="0
+(2)
+", weight=8]
+219 -> 221 [ label = "g"];
+"222" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+219 -> 222 [ label = "l"];
+"223" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+219 -> 223 [ label = "m"];
+"224" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+219 -> 224 [ label = "p"];
+"225" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+219 -> 225 [ label = "u"];
+"226" [shape=box, style=filled, label="1
+(2)
+", weight=7]
+215 -> 226 [ label = "v"];
+"227" [shape=box, style=filled, label="1
+(3/2)
+", weight=7]
+215 -> 227 [ label = "y"];
+"228" [shape=box, style=filled, label="1
+(6/2)
+", weight=6]
+212 -> 228 [ label = "y"];
+"229" [shape=box, style=filled, label="1
+(15/2)
+", weight=5]
+207 -> 229 [ label = "r"];
+"230" [shape=box, style=filled, label="1
+(15/2)
+", weight=5]
+207 -> 230 [ label = "u"];
+"231" [shape=box, style=filled, label="1
+(6)
+", weight=5]
+207 -> 231 [ label = "w"];
+"232" [shape=box, style=filled, label="1
+(15/2)
+", weight=5]
+207 -> 232 [ label = "y"];
+"233" [shape=box, style=filled, label="1
+(397/40)
+", weight=3]
+157 -> 233 [ label = "c"];
+"234" [shape=box, style=filled, label="1
+(397/40)
+", weight=3]
+157 -> 234 [ label = "e"];
+"235" [shape=box, style=filled, label="stalkcolorabovering
+Info: 0.51
+Entropy: 0.53
+Dominant class: [  1 173]
+", weight=3]
+157 -> 235 [ label = "g"];
+"236" [shape=box, style=filled, label="stalkcolorbelowring
+Info: 0.26
+Entropy: 0.29
+Dominant class: [ 1 55]
+", weight=4]
+235 -> 236 [ label = "b"];
+"237" [shape=box, style=filled, label="1
+(18)
+", weight=5]
+236 -> 237 [ label = "b"];
+"238" [shape=box, style=filled, label="1
+(55/3)
+", weight=5]
+236 -> 238 [ label = "c"];
+"239" [shape=box, style=filled, label="1
+(55/3)
+", weight=5]
+236 -> 239 [ label = "g"];
+"240" [shape=box, style=filled, label="habitat
+Info: 0.17
+Entropy: 0.34
+Dominant class: [ 1 15]
+", weight=5]
+236 -> 240 [ label = "n"];
+"241" [shape=box, style=filled, label="1
+(2/1)
+", weight=6]
+240 -> 241 [ label = "d"];
+"242" [shape=box, style=filled, label="1
+(1)
+", weight=6]
+240 -> 242 [ label = "g"];
+"243" [shape=box, style=filled, label="1
+(15/1)
+", weight=6]
+240 -> 243 [ label = "l"];
+"244" [shape=box, style=filled, label="1
+(15/1)
+", weight=6]
+240 -> 244 [ label = "m"];
+"245" [shape=box, style=filled, label="1
+(12)
+", weight=6]
+240 -> 245 [ label = "p"];
+"246" [shape=box, style=filled, label="1
+(15/1)
+", weight=6]
+240 -> 246 [ label = "u"];
+"247" [shape=box, style=filled, label="population
+Info: 0.33
+Entropy: 0.41
+Dominant class: [ 1 22]
+", weight=5]
+236 -> 247 [ label = "p"];
+"248" [shape=box, style=filled, label="1
+(22/2)
+", weight=6]
+247 -> 248 [ label = "a"];
+"249" [shape=box, style=filled, label="1
+(22/2)
+", weight=6]
+247 -> 249 [ label = "c"];
+"250" [shape=box, style=filled, label="1
+(22/2)
+", weight=6]
+247 -> 250 [ label = "n"];
+"251" [shape=box, style=filled, label="1
+(22/2)
+", weight=6]
+247 -> 251 [ label = "s"];
+"252" [shape=box, style=filled, label="gillcolor
+Info: 0.57
+Entropy: 0.65
+Dominant class: [ 1 10]
+", weight=6]
+247 -> 252 [ label = "v"];
+"253" [shape=box, style=filled, label="1
+(3)
+", weight=7]
+252 -> 253 [ label = "g"];
+"254" [shape=box, style=filled, label="0
+(4/1)
+", weight=7]
+252 -> 254 [ label = "h"];
+"255" [shape=box, style=filled, label="1
+(10/2)
+", weight=7]
+252 -> 255 [ label = "k"];
+"256" [shape=box, style=filled, label="1
+(10/2)
+", weight=7]
+252 -> 256 [ label = "n"];
+"257" [shape=box, style=filled, label="capshape
+Info: 0.50
+Entropy: 0.81
+Dominant class: [1 3]
+", weight=7]
+252 -> 257 [ label = "p"];
+"258" [shape=box, style=filled, label="1
+(3/1)
+", weight=8]
+257 -> 258 [ label = "b"];
+"259" [shape=box, style=filled, label="1
+(3/1)
+", weight=8]
+257 -> 259 [ label = "c"];
+"260" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+257 -> 260 [ label = "f"];
+"261" [shape=box, style=filled, label="1
+(3/1)
+", weight=8]
+257 -> 261 [ label = "k"];
+"262" [shape=box, style=filled, label="1
+(3/1)
+", weight=8]
+257 -> 262 [ label = "s"];
+"263" [shape=box, style=filled, label="1
+(2)
+", weight=8]
+257 -> 263 [ label = "x"];
+"264" [shape=box, style=filled, label="1
+(10/2)
+", weight=7]
+252 -> 264 [ label = "r"];
+"265" [shape=box, style=filled, label="1
+(10/2)
+", weight=7]
+252 -> 265 [ label = "u"];
+"266" [shape=box, style=filled, label="1
+(10/2)
+", weight=7]
+252 -> 266 [ label = "w"];
+"267" [shape=box, style=filled, label="1
+(10/2)
+", weight=7]
+252 -> 267 [ label = "y"];
+"268" [shape=box, style=filled, label="1
+(12)
+", weight=6]
+247 -> 268 [ label = "y"];
+"269" [shape=box, style=filled, label="1
+(55/3)
+", weight=5]
+236 -> 269 [ label = "w"];
+"270" [shape=box, style=filled, label="1
+(55/3)
+", weight=5]
+236 -> 270 [ label = "y"];
+"271" [shape=box, style=filled, label="1
+(173/24)
+", weight=4]
+235 -> 271 [ label = "c"];
+"272" [shape=box, style=filled, label="1
+(173/24)
+", weight=4]
+235 -> 272 [ label = "g"];
+"273" [shape=box, style=filled, label="habitat
+Info: 0.44
+Entropy: 0.46
+Dominant class: [ 1 55]
+", weight=4]
+235 -> 273 [ label = "n"];
+"274" [shape=box, style=filled, label="gillcolor
+Info: 0.15
+Entropy: 0.24
+Dominant class: [ 1 25]
+", weight=5]
+273 -> 274 [ label = "d"];
+"275" [shape=box, style=filled, label="capsurface
+Info: 0.33
+Entropy: 0.65
+Dominant class: [1 5]
+", weight=6]
+274 -> 275 [ label = "g"];
+"276" [shape=box, style=filled, label="1
+(1/1)
+", weight=7]
+275 -> 276 [ label = "f"];
+"277" [shape=box, style=filled, label="1
+(5/1)
+", weight=7]
+275 -> 277 [ label = "g"];
+"278" [shape=box, style=filled, label="1
+(5/1)
+", weight=7]
+275 -> 278 [ label = "s"];
+"279" [shape=box, style=filled, label="1
+(4)
+", weight=7]
+275 -> 279 [ label = "y"];
+"280" [shape=box, style=filled, label="1
+(12)
+", weight=6]
+274 -> 280 [ label = "h"];
+"281" [shape=box, style=filled, label="1
+(25/1)
+", weight=6]
+274 -> 281 [ label = "k"];
+"282" [shape=box, style=filled, label="1
+(25/1)
+", weight=6]
+274 -> 282 [ label = "n"];
+"283" [shape=box, style=filled, label="1
+(8)
+", weight=6]
+274 -> 283 [ label = "p"];
+"284" [shape=box, style=filled, label="1
+(25/1)
+", weight=6]
+274 -> 284 [ label = "r"];
+"285" [shape=box, style=filled, label="1
+(25/1)
+", weight=6]
+274 -> 285 [ label = "u"];
+"286" [shape=box, style=filled, label="1
+(25/1)
+", weight=6]
+274 -> 286 [ label = "w"];
+"287" [shape=box, style=filled, label="1
+(25/1)
+", weight=6]
+274 -> 287 [ label = "y"];
+"288" [shape=box, style=filled, label="population
+Info: 0.38
+Entropy: 0.52
+Dominant class: [ 1 15]
+", weight=5]
+273 -> 288 [ label = "g"];
+"289" [shape=box, style=filled, label="1
+(15/2)
+", weight=6]
+288 -> 289 [ label = "a"];
+"290" [shape=box, style=filled, label="1
+(15/2)
+", weight=6]
+288 -> 290 [ label = "c"];
+"291" [shape=box, style=filled, label="1
+(15/2)
+", weight=6]
+288 -> 291 [ label = "n"];
+"292" [shape=box, style=filled, label="1
+(15/2)
+", weight=6]
+288 -> 292 [ label = "s"];
+"293" [shape=box, style=filled, label="gillcolor
+Info: 0.41
+Entropy: 0.81
+Dominant class: [1 6]
+", weight=6]
+288 -> 293 [ label = "v"];
+"294" [shape=box, style=filled, label="1
+(3)
+", weight=7]
+293 -> 294 [ label = "g"];
+"295" [shape=box, style=filled, label="1
+(3/1)
+", weight=7]
+293 -> 295 [ label = "h"];
+"296" [shape=box, style=filled, label="1
+(6/2)
+", weight=7]
+293 -> 296 [ label = "k"];
+"297" [shape=box, style=filled, label="1
+(6/2)
+", weight=7]
+293 -> 297 [ label = "n"];
+"298" [shape=box, style=filled, label="0
+(1)
+", weight=7]
+293 -> 298 [ label = "p"];
+"299" [shape=box, style=filled, label="1
+(6/2)
+", weight=7]
+293 -> 299 [ label = "r"];
+"300" [shape=box, style=filled, label="1
+(6/2)
+", weight=7]
+293 -> 300 [ label = "u"];
+"301" [shape=box, style=filled, label="1
+(6/2)
+", weight=7]
+293 -> 301 [ label = "w"];
+"302" [shape=box, style=filled, label="1
+(6/2)
+", weight=7]
+293 -> 302 [ label = "y"];
+"303" [shape=box, style=filled, label="1
+(9)
+", weight=6]
+288 -> 303 [ label = "y"];
+"304" [shape=box, style=filled, label="1
+(55/6)
+", weight=5]
+273 -> 304 [ label = "l"];
+"305" [shape=box, style=filled, label="1
+(55/6)
+", weight=5]
+273 -> 305 [ label = "m"];
+"306" [shape=box, style=filled, label="stalkcolorbelowring
+Info: 0.54
+Entropy: 0.65
+Dominant class: [ 1 15]
+", weight=5]
+273 -> 306 [ label = "p"];
+"307" [shape=box, style=filled, label="1
+(6)
+", weight=6]
+306 -> 307 [ label = "b"];
+"308" [shape=box, style=filled, label="1
+(15/3)
+", weight=6]
+306 -> 308 [ label = "c"];
+"309" [shape=box, style=filled, label="1
+(15/3)
+", weight=6]
+306 -> 309 [ label = "g"];
+"310" [shape=box, style=filled, label="gillcolor
+Info: 0.50
+Entropy: 0.81
+Dominant class: [1 6]
+", weight=6]
+306 -> 310 [ label = "n"];
+"311" [shape=box, style=filled, label="1
+(2)
+", weight=7]
+310 -> 311 [ label = "g"];
+"312" [shape=box, style=filled, label="population
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 2]
+", weight=7]
+310 -> 312 [ label = "h"];
+"313" [shape=box, style=filled, label="0
+(2/2)
+", weight=8]
+312 -> 313 [ label = "a"];
+"314" [shape=box, style=filled, label="0
+(2/2)
+", weight=8]
+312 -> 314 [ label = "c"];
+"315" [shape=box, style=filled, label="0
+(2/2)
+", weight=8]
+312 -> 315 [ label = "n"];
+"316" [shape=box, style=filled, label="0
+(2/2)
+", weight=8]
+312 -> 316 [ label = "s"];
+"317" [shape=box, style=filled, label="0
+(2)
+", weight=8]
+312 -> 317 [ label = "v"];
+"318" [shape=box, style=filled, label="1
+(2)
+", weight=8]
+312 -> 318 [ label = "y"];
+"319" [shape=box, style=filled, label="1
+(6/2)
+", weight=7]
+310 -> 319 [ label = "k"];
+"320" [shape=box, style=filled, label="1
+(6/2)
+", weight=7]
+310 -> 320 [ label = "n"];
+"321" [shape=box, style=filled, label="1
+(2)
+", weight=7]
+310 -> 321 [ label = "p"];
+"322" [shape=box, style=filled, label="1
+(6/2)
+", weight=7]
+310 -> 322 [ label = "r"];
+"323" [shape=box, style=filled, label="1
+(6/2)
+", weight=7]
+310 -> 323 [ label = "u"];
+"324" [shape=box, style=filled, label="1
+(6/2)
+", weight=7]
+310 -> 324 [ label = "w"];
+"325" [shape=box, style=filled, label="1
+(6/2)
+", weight=7]
+310 -> 325 [ label = "y"];
+"326" [shape=box, style=filled, label="1
+(3/1)
+", weight=6]
+306 -> 326 [ label = "p"];
+"327" [shape=box, style=filled, label="1
+(15/3)
+", weight=6]
+306 -> 327 [ label = "w"];
+"328" [shape=box, style=filled, label="1
+(15/3)
+", weight=6]
+306 -> 328 [ label = "y"];
+"329" [shape=box, style=filled, label="1
+(55/6)
+", weight=5]
+273 -> 329 [ label = "u"];
+"330" [shape=box, style=filled, label="stalkcolorbelowring
+Info: 0.63
+Entropy: 0.69
+Dominant class: [ 1 40]
+", weight=4]
+235 -> 330 [ label = "p"];
+"331" [shape=box, style=filled, label="1
+(11/4)
+", weight=5]
+330 -> 331 [ label = "b"];
+"332" [shape=box, style=filled, label="1
+(40/9)
+", weight=5]
+330 -> 332 [ label = "c"];
+"333" [shape=box, style=filled, label="1
+(40/9)
+", weight=5]
+330 -> 333 [ label = "g"];
+"334" [shape=box, style=filled, label="capshape
+Info: 0.50
+Entropy: 0.81
+Dominant class: [ 1 12]
+", weight=5]
+330 -> 334 [ label = "n"];
+"335" [shape=box, style=filled, label="1
+(12/4)
+", weight=6]
+334 -> 335 [ label = "b"];
+"336" [shape=box, style=filled, label="1
+(12/4)
+", weight=6]
+334 -> 336 [ label = "c"];
+"337" [shape=box, style=filled, label="1
+(8)
+", weight=6]
+334 -> 337 [ label = "f"];
+"338" [shape=box, style=filled, label="1
+(12/4)
+", weight=6]
+334 -> 338 [ label = "k"];
+"339" [shape=box, style=filled, label="1
+(12/4)
+", weight=6]
+334 -> 339 [ label = "s"];
+"340" [shape=box, style=filled, label="capsurface
+Info: 0.81
+Entropy: 1.00
+Dominant class: [0 4]
+", weight=6]
+334 -> 340 [ label = "x"];
+"341" [shape=box, style=filled, label="1
+(3/1)
+", weight=7]
+340 -> 341 [ label = "f"];
+"342" [shape=box, style=filled, label="0
+(4/4)
+", weight=7]
+340 -> 342 [ label = "g"];
+"343" [shape=box, style=filled, label="0
+(4/4)
+", weight=7]
+340 -> 343 [ label = "s"];
+"344" [shape=box, style=filled, label="1
+(3/1)
+", weight=7]
+340 -> 344 [ label = "y"];
+"345" [shape=box, style=filled, label="habitat
+Info: 0.20
+Entropy: 0.31
+Dominant class: [ 1 17]
+", weight=5]
+330 -> 345 [ label = "p"];
+"346" [shape=box, style=filled, label="1
+(6)
+", weight=6]
+345 -> 346 [ label = "d"];
+"347" [shape=box, style=filled, label="capshape
+Info: 0.40
+Entropy: 0.72
+Dominant class: [1 4]
+", weight=6]
+345 -> 347 [ label = "g"];
+"348" [shape=box, style=filled, label="1
+(4/1)
+", weight=7]
+347 -> 348 [ label = "b"];
+"349" [shape=box, style=filled, label="1
+(4/1)
+", weight=7]
+347 -> 349 [ label = "c"];
+"350" [shape=box, style=filled, label="1
+(1/1)
+", weight=7]
+347 -> 350 [ label = "f"];
+"351" [shape=box, style=filled, label="1
+(4/1)
+", weight=7]
+347 -> 351 [ label = "k"];
+"352" [shape=box, style=filled, label="1
+(4/1)
+", weight=7]
+347 -> 352 [ label = "s"];
+"353" [shape=box, style=filled, label="1
+(3)
+", weight=7]
+347 -> 353 [ label = "x"];
+"354" [shape=box, style=filled, label="1
+(17/1)
+", weight=6]
+345 -> 354 [ label = "l"];
+"355" [shape=box, style=filled, label="1
+(17/1)
+", weight=6]
+345 -> 355 [ label = "m"];
+"356" [shape=box, style=filled, label="1
+(7)
+", weight=6]
+345 -> 356 [ label = "p"];
+"357" [shape=box, style=filled, label="1
+(17/1)
+", weight=6]
+345 -> 357 [ label = "u"];
+"358" [shape=box, style=filled, label="1
+(40/9)
+", weight=5]
+330 -> 358 [ label = "w"];
+"359" [shape=box, style=filled, label="1
+(40/9)
+", weight=5]
+330 -> 359 [ label = "y"];
+"360" [shape=box, style=filled, label="gillcolor
+Info: 0.54
+Entropy: 0.74
+Dominant class: [ 1 23]
+", weight=4]
+235 -> 360 [ label = "w"];
+"361" [shape=box, style=filled, label="1
+(23/6)
+", weight=5]
+360 -> 361 [ label = "g"];
+"362" [shape=box, style=filled, label="1
+(4/3)
+", weight=5]
+360 -> 362 [ label = "h"];
+"363" [shape=box, style=filled, label="1
+(23/6)
+", weight=5]
+360 -> 363 [ label = "k"];
+"364" [shape=box, style=filled, label="1
+(23/6)
+", weight=5]
+360 -> 364 [ label = "n"];
+"365" [shape=box, style=filled, label="1
+(12)
+", weight=5]
+360 -> 365 [ label = "p"];
+"366" [shape=box, style=filled, label="1
+(23/6)
+", weight=5]
+360 -> 366 [ label = "r"];
+"367" [shape=box, style=filled, label="1
+(23/6)
+", weight=5]
+360 -> 367 [ label = "u"];
+"368" [shape=box, style=filled, label="stalksurfaceabovering
+Info: 0.85
+Entropy: 0.88
+Dominant class: [1 7]
+", weight=5]
+360 -> 368 [ label = "w"];
+"369" [shape=box, style=filled, label="habitat
+Info: 0.55
+Entropy: 0.97
+Dominant class: [1 3]
+", weight=6]
+368 -> 369 [ label = "f"];
+"370" [shape=box, style=filled, label="1
+(3/2)
+", weight=7]
+369 -> 370 [ label = "d"];
+"371" [shape=box, style=filled, label="1
+(2)
+", weight=7]
+369 -> 371 [ label = "g"];
+"372" [shape=box, style=filled, label="1
+(3/2)
+", weight=7]
+369 -> 372 [ label = "l"];
+"373" [shape=box, style=filled, label="1
+(3/2)
+", weight=7]
+369 -> 373 [ label = "m"];
+"374" [shape=box, style=filled, label="1
+(3/2)
+", weight=7]
+369 -> 374 [ label = "p"];
+"375" [shape=box, style=filled, label="capshape
+Info: 0.67
+Entropy: 0.92
+Dominant class: [0 2]
+", weight=7]
+369 -> 375 [ label = "u"];
+"376" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+375 -> 376 [ label = "b"];
+"377" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+375 -> 377 [ label = "c"];
+"378" [shape=box, style=filled, label="population
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=8]
+375 -> 378 [ label = "f"];
+"379" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+378 -> 379 [ label = "a"];
+"380" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+378 -> 380 [ label = "c"];
+"381" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+378 -> 381 [ label = "n"];
+"382" [shape=box, style=filled, label="0
+(1)
+", weight=9]
+378 -> 382 [ label = "s"];
+"383" [shape=box, style=filled, label="1
+(1)
+", weight=9]
+378 -> 383 [ label = "v"];
+"384" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+378 -> 384 [ label = "y"];
+"385" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+375 -> 385 [ label = "k"];
+"386" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+375 -> 386 [ label = "s"];
+"387" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+375 -> 387 [ label = "x"];
+"388" [shape=box, style=filled, label="1
+(7/3)
+", weight=6]
+368 -> 388 [ label = "k"];
+"389" [shape=box, style=filled, label="stalksurfacebelowring
+Info: 0.00
+Entropy: 0.72
+Dominant class: [1 4]
+", weight=6]
+368 -> 389 [ label = "s"];
+"390" [shape=box, style=filled, label="0
+(1)
+", weight=7]
+389 -> 390 [ label = "f"];
+"391" [shape=box, style=filled, label="1
+(4/1)
+", weight=7]
+389 -> 391 [ label = "k"];
+"392" [shape=box, style=filled, label="1
+(4)
+", weight=7]
+389 -> 392 [ label = "s"];
+"393" [shape=box, style=filled, label="1
+(4/1)
+", weight=7]
+389 -> 393 [ label = "y"];
+"394" [shape=box, style=filled, label="1
+(7/3)
+", weight=6]
+368 -> 394 [ label = "y"];
+"395" [shape=box, style=filled, label="1
+(23/6)
+", weight=5]
+360 -> 395 [ label = "y"];
+"396" [shape=box, style=filled, label="1
+(173/24)
+", weight=4]
+235 -> 396 [ label = "y"];
+"397" [shape=box, style=filled, label="1
+(397/40)
+", weight=3]
+157 -> 397 [ label = "n"];
+"398" [shape=box, style=filled, label="1
+(397/40)
+", weight=3]
+157 -> 398 [ label = "p"];
+"399" [shape=box, style=filled, label="1
+(27)
+", weight=3]
+157 -> 399 [ label = "w"];
+"400" [shape=box, style=filled, label="stalkcolorbelowring
+Info: 0.29
+Entropy: 0.31
+Dominant class: [  1 171]
+", weight=3]
+157 -> 400 [ label = "y"];
+"401" [shape=box, style=filled, label="stalkcolorabovering
+Info: 0.17
+Entropy: 0.22
+Dominant class: [ 1 56]
+", weight=4]
+400 -> 401 [ label = "b"];
+"402" [shape=box, style=filled, label="1
+(17)
+", weight=5]
+401 -> 402 [ label = "b"];
+"403" [shape=box, style=filled, label="1
+(56/2)
+", weight=5]
+401 -> 403 [ label = "c"];
+"404" [shape=box, style=filled, label="1
+(56/2)
+", weight=5]
+401 -> 404 [ label = "g"];
+"405" [shape=box, style=filled, label="1
+(19)
+", weight=5]
+401 -> 405 [ label = "n"];
+"406" [shape=box, style=filled, label="population
+Info: 0.30
+Entropy: 0.44
+Dominant class: [ 1 20]
+", weight=5]
+401 -> 406 [ label = "p"];
+"407" [shape=box, style=filled, label="1
+(20/2)
+", weight=6]
+406 -> 407 [ label = "a"];
+"408" [shape=box, style=filled, label="1
+(20/2)
+", weight=6]
+406 -> 408 [ label = "c"];
+"409" [shape=box, style=filled, label="1
+(20/2)
+", weight=6]
+406 -> 409 [ label = "n"];
+"410" [shape=box, style=filled, label="1
+(20/2)
+", weight=6]
+406 -> 410 [ label = "s"];
+"411" [shape=box, style=filled, label="habitat
+Info: 0.34
+Entropy: 0.81
+Dominant class: [1 6]
+", weight=6]
+406 -> 411 [ label = "v"];
+"412" [shape=box, style=filled, label="1
+(2/1)
+", weight=7]
+411 -> 412 [ label = "d"];
+"413" [shape=box, style=filled, label="0
+(1)
+", weight=7]
+411 -> 413 [ label = "g"];
+"414" [shape=box, style=filled, label="1
+(6/2)
+", weight=7]
+411 -> 414 [ label = "l"];
+"415" [shape=box, style=filled, label="1
+(6/2)
+", weight=7]
+411 -> 415 [ label = "m"];
+"416" [shape=box, style=filled, label="1
+(4)
+", weight=7]
+411 -> 416 [ label = "p"];
+"417" [shape=box, style=filled, label="1
+(6/2)
+", weight=7]
+411 -> 417 [ label = "u"];
+"418" [shape=box, style=filled, label="1
+(14)
+", weight=6]
+406 -> 418 [ label = "y"];
+"419" [shape=box, style=filled, label="1
+(56/2)
+", weight=5]
+401 -> 419 [ label = "w"];
+"420" [shape=box, style=filled, label="1
+(56/2)
+", weight=5]
+401 -> 420 [ label = "y"];
+"421" [shape=box, style=filled, label="1
+(171/10)
+", weight=4]
+400 -> 421 [ label = "c"];
+"422" [shape=box, style=filled, label="1
+(171/10)
+", weight=4]
+400 -> 422 [ label = "g"];
+"423" [shape=box, style=filled, label="stalkcolorabovering
+Info: 0.09
+Entropy: 0.12
+Dominant class: [ 1 59]
+", weight=4]
+400 -> 423 [ label = "n"];
+"424" [shape=box, style=filled, label="habitat
+Info: 0.19
+Entropy: 0.32
+Dominant class: [ 1 16]
+", weight=5]
+423 -> 424 [ label = "b"];
+"425" [shape=box, style=filled, label="1
+(8)
+", weight=6]
+424 -> 425 [ label = "d"];
+"426" [shape=box, style=filled, label="1
+(5)
+", weight=6]
+424 -> 426 [ label = "g"];
+"427" [shape=box, style=filled, label="1
+(16/1)
+", weight=6]
+424 -> 427 [ label = "l"];
+"428" [shape=box, style=filled, label="1
+(16/1)
+", weight=6]
+424 -> 428 [ label = "m"];
+"429" [shape=box, style=filled, label="1
+(3/1)
+", weight=6]
+424 -> 429 [ label = "p"];
+"430" [shape=box, style=filled, label="1
+(16/1)
+", weight=6]
+424 -> 430 [ label = "u"];
+"431" [shape=box, style=filled, label="1
+(59/1)
+", weight=5]
+423 -> 431 [ label = "c"];
+"432" [shape=box, style=filled, label="1
+(59/1)
+", weight=5]
+423 -> 432 [ label = "g"];
+"433" [shape=box, style=filled, label="1
+(21)
+", weight=5]
+423 -> 433 [ label = "n"];
+"434" [shape=box, style=filled, label="1
+(22)
+", weight=5]
+423 -> 434 [ label = "p"];
+"435" [shape=box, style=filled, label="1
+(59/1)
+", weight=5]
+423 -> 435 [ label = "w"];
+"436" [shape=box, style=filled, label="1
+(59/1)
+", weight=5]
+423 -> 436 [ label = "y"];
+"437" [shape=box, style=filled, label="gillcolor
+Info: 0.47
+Entropy: 0.50
+Dominant class: [ 1 56]
+", weight=4]
+400 -> 437 [ label = "p"];
+"438" [shape=box, style=filled, label="capshape
+Info: 0.49
+Entropy: 0.75
+Dominant class: [ 1 11]
+", weight=5]
+437 -> 438 [ label = "g"];
+"439" [shape=box, style=filled, label="1
+(11/3)
+", weight=6]
+438 -> 439 [ label = "b"];
+"440" [shape=box, style=filled, label="1
+(11/3)
+", weight=6]
+438 -> 440 [ label = "c"];
+"441" [shape=box, style=filled, label="1
+(7)
+", weight=6]
+438 -> 441 [ label = "f"];
+"442" [shape=box, style=filled, label="1
+(11/3)
+", weight=6]
+438 -> 442 [ label = "k"];
+"443" [shape=box, style=filled, label="1
+(11/3)
+", weight=6]
+438 -> 443 [ label = "s"];
+"444" [shape=box, style=filled, label="stalkcolorabovering
+Info: 0.68
+Entropy: 0.99
+Dominant class: [1 4]
+", weight=6]
+438 -> 444 [ label = "x"];
+"445" [shape=box, style=filled, label="1
+(1/1)
+", weight=7]
+444 -> 445 [ label = "b"];
+"446" [shape=box, style=filled, label="1
+(4/3)
+", weight=7]
+444 -> 446 [ label = "c"];
+"447" [shape=box, style=filled, label="1
+(4/3)
+", weight=7]
+444 -> 447 [ label = "g"];
+"448" [shape=box, style=filled, label="population
+Info: 0.00
+Entropy: 0.92
+Dominant class: [0 2]
+", weight=7]
+444 -> 448 [ label = "n"];
+"449" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+448 -> 449 [ label = "a"];
+"450" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+448 -> 450 [ label = "c"];
+"451" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+448 -> 451 [ label = "n"];
+"452" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+448 -> 452 [ label = "s"];
+"453" [shape=box, style=filled, label="0
+(2)
+", weight=8]
+448 -> 453 [ label = "v"];
+"454" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+448 -> 454 [ label = "y"];
+"455" [shape=box, style=filled, label="1
+(2)
+", weight=7]
+444 -> 455 [ label = "p"];
+"456" [shape=box, style=filled, label="1
+(4/3)
+", weight=7]
+444 -> 456 [ label = "w"];
+"457" [shape=box, style=filled, label="1
+(4/3)
+", weight=7]
+444 -> 457 [ label = "y"];
+"458" [shape=box, style=filled, label="habitat
+Info: 0.16
+Entropy: 0.26
+Dominant class: [ 1 22]
+", weight=5]
+437 -> 458 [ label = "h"];
+"459" [shape=box, style=filled, label="1
+(11)
+", weight=6]
+458 -> 459 [ label = "d"];
+"460" [shape=box, style=filled, label="1
+(7)
+", weight=6]
+458 -> 460 [ label = "g"];
+"461" [shape=box, style=filled, label="1
+(22/1)
+", weight=6]
+458 -> 461 [ label = "l"];
+"462" [shape=box, style=filled, label="1
+(22/1)
+", weight=6]
+458 -> 462 [ label = "m"];
+"463" [shape=box, style=filled, label="capshape
+Info: 0.55
+Entropy: 0.72
+Dominant class: [1 4]
+", weight=6]
+458 -> 463 [ label = "p"];
+"464" [shape=box, style=filled, label="1
+(4/1)
+", weight=7]
+463 -> 464 [ label = "b"];
+"465" [shape=box, style=filled, label="1
+(4/1)
+", weight=7]
+463 -> 465 [ label = "c"];
+"466" [shape=box, style=filled, label="stalkcolorabovering
+Info: 0.67
+Entropy: 0.92
+Dominant class: [1 2]
+", weight=7]
+463 -> 466 [ label = "f"];
+"467" [shape=box, style=filled, label="1
+(2/1)
+", weight=8]
+466 -> 467 [ label = "b"];
+"468" [shape=box, style=filled, label="1
+(2/1)
+", weight=8]
+466 -> 468 [ label = "c"];
+"469" [shape=box, style=filled, label="1
+(2/1)
+", weight=8]
+466 -> 469 [ label = "g"];
+"470" [shape=box, style=filled, label="population
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=8]
+466 -> 470 [ label = "n"];
+"471" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+470 -> 471 [ label = "a"];
+"472" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+470 -> 472 [ label = "c"];
+"473" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+470 -> 473 [ label = "n"];
+"474" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+470 -> 474 [ label = "s"];
+"475" [shape=box, style=filled, label="1
+(1)
+", weight=9]
+470 -> 475 [ label = "v"];
+"476" [shape=box, style=filled, label="0
+(1)
+", weight=9]
+470 -> 476 [ label = "y"];
+"477" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+466 -> 477 [ label = "p"];
+"478" [shape=box, style=filled, label="1
+(2/1)
+", weight=8]
+466 -> 478 [ label = "w"];
+"479" [shape=box, style=filled, label="1
+(2/1)
+", weight=8]
+466 -> 479 [ label = "y"];
+"480" [shape=box, style=filled, label="1
+(4/1)
+", weight=7]
+463 -> 480 [ label = "k"];
+"481" [shape=box, style=filled, label="1
+(4/1)
+", weight=7]
+463 -> 481 [ label = "s"];
+"482" [shape=box, style=filled, label="1
+(2)
+", weight=7]
+463 -> 482 [ label = "x"];
+"483" [shape=box, style=filled, label="1
+(22/1)
+", weight=6]
+458 -> 483 [ label = "u"];
+"484" [shape=box, style=filled, label="1
+(56/7)
+", weight=5]
+437 -> 484 [ label = "k"];
+"485" [shape=box, style=filled, label="1
+(56/7)
+", weight=5]
+437 -> 485 [ label = "n"];
+"486" [shape=box, style=filled, label="stalkcolorabovering
+Info: 0.43
+Entropy: 0.52
+Dominant class: [ 1 23]
+", weight=5]
+437 -> 486 [ label = "p"];
+"487" [shape=box, style=filled, label="1
+(8)
+", weight=6]
+486 -> 487 [ label = "b"];
+"488" [shape=box, style=filled, label="1
+(23/3)
+", weight=6]
+486 -> 488 [ label = "c"];
+"489" [shape=box, style=filled, label="1
+(23/3)
+", weight=6]
+486 -> 489 [ label = "g"];
+"490" [shape=box, style=filled, label="capsurface
+Info: 0.36
+Entropy: 0.47
+Dominant class: [1 9]
+", weight=6]
+486 -> 490 [ label = "n"];
+"491" [shape=box, style=filled, label="1
+(5)
+", weight=7]
+490 -> 491 [ label = "f"];
+"492" [shape=box, style=filled, label="1
+(9/1)
+", weight=7]
+490 -> 492 [ label = "g"];
+"493" [shape=box, style=filled, label="1
+(9/1)
+", weight=7]
+490 -> 493 [ label = "s"];
+"494" [shape=box, style=filled, label="population
+Info: 0.40
+Entropy: 0.72
+Dominant class: [1 4]
+", weight=7]
+490 -> 494 [ label = "y"];
+"495" [shape=box, style=filled, label="1
+(4/1)
+", weight=8]
+494 -> 495 [ label = "a"];
+"496" [shape=box, style=filled, label="1
+(4/1)
+", weight=8]
+494 -> 496 [ label = "c"];
+"497" [shape=box, style=filled, label="1
+(4/1)
+", weight=8]
+494 -> 497 [ label = "n"];
+"498" [shape=box, style=filled, label="1
+(4/1)
+", weight=8]
+494 -> 498 [ label = "s"];
+"499" [shape=box, style=filled, label="1
+(3)
+", weight=8]
+494 -> 499 [ label = "v"];
+"500" [shape=box, style=filled, label="1
+(1/1)
+", weight=8]
+494 -> 500 [ label = "y"];
+"501" [shape=box, style=filled, label="capshape
+Info: 0.34
+Entropy: 0.81
+Dominant class: [1 6]
+", weight=6]
+486 -> 501 [ label = "p"];
+"502" [shape=box, style=filled, label="1
+(6/2)
+", weight=7]
+501 -> 502 [ label = "b"];
+"503" [shape=box, style=filled, label="1
+(6/2)
+", weight=7]
+501 -> 503 [ label = "c"];
+"504" [shape=box, style=filled, label="1
+(5)
+", weight=7]
+501 -> 504 [ label = "f"];
+"505" [shape=box, style=filled, label="1
+(6/2)
+", weight=7]
+501 -> 505 [ label = "k"];
+"506" [shape=box, style=filled, label="1
+(6/2)
+", weight=7]
+501 -> 506 [ label = "s"];
+"507" [shape=box, style=filled, label="capsurface
+Info: 0.67
+Entropy: 0.92
+Dominant class: [0 2]
+", weight=7]
+501 -> 507 [ label = "x"];
+"508" [shape=box, style=filled, label="population
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=8]
+507 -> 508 [ label = "f"];
+"509" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+508 -> 509 [ label = "a"];
+"510" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+508 -> 510 [ label = "c"];
+"511" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+508 -> 511 [ label = "n"];
+"512" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+508 -> 512 [ label = "s"];
+"513" [shape=box, style=filled, label="0
+(1)
+", weight=9]
+508 -> 513 [ label = "v"];
+"514" [shape=box, style=filled, label="1
+(1)
+", weight=9]
+508 -> 514 [ label = "y"];
+"515" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+507 -> 515 [ label = "g"];
+"516" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+507 -> 516 [ label = "s"];
+"517" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+507 -> 517 [ label = "y"];
+"518" [shape=box, style=filled, label="1
+(23/3)
+", weight=6]
+486 -> 518 [ label = "w"];
+"519" [shape=box, style=filled, label="1
+(23/3)
+", weight=6]
+486 -> 519 [ label = "y"];
+"520" [shape=box, style=filled, label="1
+(56/7)
+", weight=5]
+437 -> 520 [ label = "r"];
+"521" [shape=box, style=filled, label="1
+(56/7)
+", weight=5]
+437 -> 521 [ label = "u"];
+"522" [shape=box, style=filled, label="1
+(56/7)
+", weight=5]
+437 -> 522 [ label = "w"];
+"523" [shape=box, style=filled, label="1
+(56/7)
+", weight=5]
+437 -> 523 [ label = "y"];
+"524" [shape=box, style=filled, label="1
+(171/10)
+", weight=4]
+400 -> 524 [ label = "w"];
+"525" [shape=box, style=filled, label="1
+(171/10)
+", weight=4]
+400 -> 525 [ label = "y"];
+"526" [shape=box, style=filled, label="gillcolor
+Info: 0.26
+Entropy: 0.31
+Dominant class: [  0 104]
+", weight=2]
+0 -> 526 [ label = "l"];
+"527" [shape=box, style=filled, label="0
+(16)
+", weight=3]
+526 -> 527 [ label = "g"];
+"528" [shape=box, style=filled, label="0
+(104/6)
+", weight=3]
+526 -> 528 [ label = "h"];
+"529" [shape=box, style=filled, label="0
+(21)
+", weight=3]
+526 -> 529 [ label = "k"];
+"530" [shape=box, style=filled, label="sporeprintcolor
+Info: 0.29
+Entropy: 0.42
+Dominant class: [ 0 32]
+", weight=3]
+526 -> 530 [ label = "n"];
+"531" [shape=box, style=filled, label="0
+(32/3)
+", weight=4]
+530 -> 531 [ label = "h"];
+"532" [shape=box, style=filled, label="capcolor
+Info: 0.49
+Entropy: 0.78
+Dominant class: [ 0 10]
+", weight=4]
+530 -> 532 [ label = "k"];
+"533" [shape=box, style=filled, label="0
+(10/3)
+", weight=5]
+532 -> 533 [ label = "b"];
+"534" [shape=box, style=filled, label="0
+(10/3)
+", weight=5]
+532 -> 534 [ label = "c"];
+"535" [shape=box, style=filled, label="0
+(10/3)
+", weight=5]
+532 -> 535 [ label = "e"];
+"536" [shape=box, style=filled, label="0
+(10/3)
+", weight=5]
+532 -> 536 [ label = "g"];
+"537" [shape=box, style=filled, label="capshape
+Info: 0.67
+Entropy: 0.92
+Dominant class: [1 2]
+", weight=5]
+532 -> 537 [ label = "n"];
+"538" [shape=box, style=filled, label="1
+(2/1)
+", weight=6]
+537 -> 538 [ label = "b"];
+"539" [shape=box, style=filled, label="1
+(2/1)
+", weight=6]
+537 -> 539 [ label = "c"];
+"540" [shape=box, style=filled, label="population
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=6]
+537 -> 540 [ label = "f"];
+"541" [shape=box, style=filled, label="0
+(1/1)
+", weight=7]
+540 -> 541 [ label = "a"];
+"542" [shape=box, style=filled, label="0
+(1/1)
+", weight=7]
+540 -> 542 [ label = "c"];
+"543" [shape=box, style=filled, label="0
+(1/1)
+", weight=7]
+540 -> 543 [ label = "n"];
+"544" [shape=box, style=filled, label="1
+(1)
+", weight=7]
+540 -> 544 [ label = "s"];
+"545" [shape=box, style=filled, label="0
+(1/1)
+", weight=7]
+540 -> 545 [ label = "v"];
+"546" [shape=box, style=filled, label="0
+(1)
+", weight=7]
+540 -> 546 [ label = "y"];
+"547" [shape=box, style=filled, label="1
+(2/1)
+", weight=6]
+537 -> 547 [ label = "k"];
+"548" [shape=box, style=filled, label="1
+(2/1)
+", weight=6]
+537 -> 548 [ label = "s"];
+"549" [shape=box, style=filled, label="1
+(1)
+", weight=6]
+537 -> 549 [ label = "x"];
+"550" [shape=box, style=filled, label="0
+(10/3)
+", weight=5]
+532 -> 550 [ label = "p"];
+"551" [shape=box, style=filled, label="0
+(5)
+", weight=5]
+532 -> 551 [ label = "w"];
+"552" [shape=box, style=filled, label="0
+(4/1)
+", weight=5]
+532 -> 552 [ label = "y"];
+"553" [shape=box, style=filled, label="0
+(19)
+", weight=4]
+530 -> 553 [ label = "n"];
+"554" [shape=box, style=filled, label="0
+(32/3)
+", weight=4]
+530 -> 554 [ label = "r"];
+"555" [shape=box, style=filled, label="0
+(3)
+", weight=4]
+530 -> 555 [ label = "u"];
+"556" [shape=box, style=filled, label="0
+(32/3)
+", weight=4]
+530 -> 556 [ label = "w"];
+"557" [shape=box, style=filled, label="0
+(11)
+", weight=3]
+526 -> 557 [ label = "p"];
+"558" [shape=box, style=filled, label="0
+(104/6)
+", weight=3]
+526 -> 558 [ label = "r"];
+"559" [shape=box, style=filled, label="0
+(104/6)
+", weight=3]
+526 -> 559 [ label = "u"];
+"560" [shape=box, style=filled, label="capcolor
+Info: 0.41
+Entropy: 0.50
+Dominant class: [ 0 24]
+", weight=3]
+526 -> 560 [ label = "w"];
+"561" [shape=box, style=filled, label="0
+(24/3)
+", weight=4]
+560 -> 561 [ label = "b"];
+"562" [shape=box, style=filled, label="0
+(24/3)
+", weight=4]
+560 -> 562 [ label = "c"];
+"563" [shape=box, style=filled, label="0
+(24/3)
+", weight=4]
+560 -> 563 [ label = "e"];
+"564" [shape=box, style=filled, label="0
+(24/3)
+", weight=4]
+560 -> 564 [ label = "g"];
+"565" [shape=box, style=filled, label="capshape
+Info: 0.69
+Entropy: 0.81
+Dominant class: [0 3]
+", weight=4]
+560 -> 565 [ label = "n"];
+"566" [shape=box, style=filled, label="0
+(3/1)
+", weight=5]
+565 -> 566 [ label = "b"];
+"567" [shape=box, style=filled, label="0
+(3/1)
+", weight=5]
+565 -> 567 [ label = "c"];
+"568" [shape=box, style=filled, label="sporeprintcolor
+Info: 0.67
+Entropy: 0.92
+Dominant class: [0 2]
+", weight=5]
+565 -> 568 [ label = "f"];
+"569" [shape=box, style=filled, label="0
+(2/1)
+", weight=6]
+568 -> 569 [ label = "h"];
+"570" [shape=box, style=filled, label="0
+(1)
+", weight=6]
+568 -> 570 [ label = "k"];
+"571" [shape=box, style=filled, label="0
+(1/1)
+", weight=6]
+568 -> 571 [ label = "n"];
+"572" [shape=box, style=filled, label="0
+(2/1)
+", weight=6]
+568 -> 572 [ label = "r"];
+"573" [shape=box, style=filled, label="0
+(2/1)
+", weight=6]
+568 -> 573 [ label = "u"];
+"574" [shape=box, style=filled, label="0
+(2/1)
+", weight=6]
+568 -> 574 [ label = "w"];
+"575" [shape=box, style=filled, label="0
+(3/1)
+", weight=5]
+565 -> 575 [ label = "k"];
+"576" [shape=box, style=filled, label="0
+(3/1)
+", weight=5]
+565 -> 576 [ label = "s"];
+"577" [shape=box, style=filled, label="0
+(1)
+", weight=5]
+565 -> 577 [ label = "x"];
+"578" [shape=box, style=filled, label="0
+(24/3)
+", weight=4]
+560 -> 578 [ label = "p"];
+"579" [shape=box, style=filled, label="capshape
+Info: 0.50
+Entropy: 0.65
+Dominant class: [ 0 10]
+", weight=4]
+560 -> 579 [ label = "w"];
+"580" [shape=box, style=filled, label="0
+(5)
+", weight=5]
+579 -> 580 [ label = "b"];
+"581" [shape=box, style=filled, label="0
+(10/2)
+", weight=5]
+579 -> 581 [ label = "c"];
+"582" [shape=box, style=filled, label="capsurface
+Info: 0.50
+Entropy: 0.81
+Dominant class: [0 3]
+", weight=5]
+579 -> 582 [ label = "f"];
+"583" [shape=box, style=filled, label="0
+(2)
+", weight=6]
+582 -> 583 [ label = "f"];
+"584" [shape=box, style=filled, label="0
+(3/1)
+", weight=6]
+582 -> 584 [ label = "g"];
+"585" [shape=box, style=filled, label="sporeprintcolor
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=6]
+582 -> 585 [ label = "s"];
+"586" [shape=box, style=filled, label="0
+(1/1)
+", weight=7]
+585 -> 586 [ label = "h"];
+"587" [shape=box, style=filled, label="0
+(1/1)
+", weight=7]
+585 -> 587 [ label = "k"];
+"588" [shape=box, style=filled, label="0
+(1)
+", weight=7]
+585 -> 588 [ label = "n"];
+"589" [shape=box, style=filled, label="0
+(1/1)
+", weight=7]
+585 -> 589 [ label = "r"];
+"590" [shape=box, style=filled, label="1
+(1)
+", weight=7]
+585 -> 590 [ label = "u"];
+"591" [shape=box, style=filled, label="0
+(1/1)
+", weight=7]
+585 -> 591 [ label = "w"];
+"592" [shape=box, style=filled, label="0
+(3/1)
+", weight=6]
+582 -> 592 [ label = "y"];
+"593" [shape=box, style=filled, label="0
+(10/2)
+", weight=5]
+579 -> 593 [ label = "k"];
+"594" [shape=box, style=filled, label="0
+(10/2)
+", weight=5]
+579 -> 594 [ label = "s"];
+"595" [shape=box, style=filled, label="capsurface
+Info: 0.67
+Entropy: 0.92
+Dominant class: [0 2]
+", weight=5]
+579 -> 595 [ label = "x"];
+"596" [shape=box, style=filled, label="0
+(2/1)
+", weight=6]
+595 -> 596 [ label = "f"];
+"597" [shape=box, style=filled, label="0
+(2/1)
+", weight=6]
+595 -> 597 [ label = "g"];
+"598" [shape=box, style=filled, label="0
+(1)
+", weight=6]
+595 -> 598 [ label = "s"];
+"599" [shape=box, style=filled, label="0
+(1/1)
+", weight=6]
+595 -> 599 [ label = "y"];
+"600" [shape=box, style=filled, label="0
+(11)
+", weight=4]
+560 -> 600 [ label = "y"];
+"601" [shape=box, style=filled, label="0
+(104/6)
+", weight=3]
+526 -> 601 [ label = "y"];
+"602" [shape=box, style=filled, label="1
+(8)
+", weight=2]
+0 -> 602 [ label = "m"];
+"603" [shape=box, style=filled, label="sporeprintcolor
+Info: 0.48
+Entropy: 0.55
+Dominant class: [  0 680]
+", weight=2]
+0 -> 603 [ label = "n"];
+"604" [shape=box, style=filled, label="0
+(680/99)
+", weight=3]
+603 -> 604 [ label = "h"];
+"605" [shape=box, style=filled, label="gillcolor
+Info: 0.49
+Entropy: 0.51
+Dominant class: [  0 312]
+", weight=3]
+603 -> 605 [ label = "k"];
+"606" [shape=box, style=filled, label="capshape
+Info: 0.00
+Entropy: 0.92
+Dominant class: [0 2]
+", weight=4]
+605 -> 606 [ label = "g"];
+"607" [shape=box, style=filled, label="0
+(2/1)
+", weight=5]
+606 -> 607 [ label = "b"];
+"608" [shape=box, style=filled, label="0
+(2/1)
+", weight=5]
+606 -> 608 [ label = "c"];
+"609" [shape=box, style=filled, label="0
+(2)
+", weight=5]
+606 -> 609 [ label = "f"];
+"610" [shape=box, style=filled, label="0
+(2/1)
+", weight=5]
+606 -> 610 [ label = "k"];
+"611" [shape=box, style=filled, label="1
+(1)
+", weight=5]
+606 -> 611 [ label = "s"];
+"612" [shape=box, style=filled, label="0
+(2/1)
+", weight=5]
+606 -> 612 [ label = "x"];
+"613" [shape=box, style=filled, label="capsurface
+Info: 0.51
+Entropy: 0.59
+Dominant class: [ 0 18]
+", weight=4]
+605 -> 613 [ label = "h"];
+"614" [shape=box, style=filled, label="capcolor
+Info: 0.46
+Entropy: 0.92
+Dominant class: [0 4]
+", weight=5]
+613 -> 614 [ label = "f"];
+"615" [shape=box, style=filled, label="0
+(4/2)
+", weight=6]
+614 -> 615 [ label = "b"];
+"616" [shape=box, style=filled, label="0
+(4/2)
+", weight=6]
+614 -> 616 [ label = "c"];
+"617" [shape=box, style=filled, label="0
+(4/2)
+", weight=6]
+614 -> 617 [ label = "e"];
+"618" [shape=box, style=filled, label="1
+(1)
+", weight=6]
+614 -> 618 [ label = "g"];
+"619" [shape=box, style=filled, label="stalksurfaceabovering
+Info: 0.67
+Entropy: 0.92
+Dominant class: [0 2]
+", weight=6]
+614 -> 619 [ label = "n"];
+"620" [shape=box, style=filled, label="stalksurfacebelowring
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=7]
+619 -> 620 [ label = "f"];
+"621" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+620 -> 621 [ label = "f"];
+"622" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+620 -> 622 [ label = "k"];
+"623" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+620 -> 623 [ label = "s"];
+"624" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+620 -> 624 [ label = "y"];
+"625" [shape=box, style=filled, label="0
+(2/1)
+", weight=7]
+619 -> 625 [ label = "k"];
+"626" [shape=box, style=filled, label="0
+(1)
+", weight=7]
+619 -> 626 [ label = "s"];
+"627" [shape=box, style=filled, label="0
+(2/1)
+", weight=7]
+619 -> 627 [ label = "y"];
+"628" [shape=box, style=filled, label="0
+(4/2)
+", weight=6]
+614 -> 628 [ label = "p"];
+"629" [shape=box, style=filled, label="0
+(2)
+", weight=6]
+614 -> 629 [ label = "w"];
+"630" [shape=box, style=filled, label="0
+(4/2)
+", weight=6]
+614 -> 630 [ label = "y"];
+"631" [shape=box, style=filled, label="0
+(18/3)
+", weight=5]
+613 -> 631 [ label = "g"];
+"632" [shape=box, style=filled, label="capcolor
+Info: 0.22
+Entropy: 0.35
+Dominant class: [ 0 14]
+", weight=5]
+613 -> 632 [ label = "s"];
+"633" [shape=box, style=filled, label="0
+(14/1)
+", weight=6]
+632 -> 633 [ label = "b"];
+"634" [shape=box, style=filled, label="0
+(14/1)
+", weight=6]
+632 -> 634 [ label = "c"];
+"635" [shape=box, style=filled, label="0
+(14/1)
+", weight=6]
+632 -> 635 [ label = "e"];
+"636" [shape=box, style=filled, label="0
+(5)
+", weight=6]
+632 -> 636 [ label = "g"];
+"637" [shape=box, style=filled, label="0
+(6)
+", weight=6]
+632 -> 637 [ label = "n"];
+"638" [shape=box, style=filled, label="0
+(14/1)
+", weight=6]
+632 -> 638 [ label = "p"];
+"639" [shape=box, style=filled, label="population
+Info: 0.50
+Entropy: 0.81
+Dominant class: [0 3]
+", weight=6]
+632 -> 639 [ label = "w"];
+"640" [shape=box, style=filled, label="0
+(2)
+", weight=7]
+639 -> 640 [ label = "a"];
+"641" [shape=box, style=filled, label="0
+(3/1)
+", weight=7]
+639 -> 641 [ label = "c"];
+"642" [shape=box, style=filled, label="0
+(3/1)
+", weight=7]
+639 -> 642 [ label = "n"];
+"643" [shape=box, style=filled, label="stalksurfaceabovering
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=7]
+639 -> 643 [ label = "s"];
+"644" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+643 -> 644 [ label = "f"];
+"645" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+643 -> 645 [ label = "k"];
+"646" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+643 -> 646 [ label = "s"];
+"647" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+643 -> 647 [ label = "y"];
+"648" [shape=box, style=filled, label="0
+(3/1)
+", weight=7]
+639 -> 648 [ label = "v"];
+"649" [shape=box, style=filled, label="0
+(3/1)
+", weight=7]
+639 -> 649 [ label = "y"];
+"650" [shape=box, style=filled, label="0
+(14/1)
+", weight=6]
+632 -> 650 [ label = "y"];
+"651" [shape=box, style=filled, label="0
+(18/3)
+", weight=5]
+613 -> 651 [ label = "y"];
+"652" [shape=box, style=filled, label="capshape
+Info: 0.67
+Entropy: 0.73
+Dominant class: [ 0 31]
+", weight=4]
+605 -> 652 [ label = "k"];
+"653" [shape=box, style=filled, label="0
+(31/8)
+", weight=5]
+652 -> 653 [ label = "b"];
+"654" [shape=box, style=filled, label="0
+(31/8)
+", weight=5]
+652 -> 654 [ label = "c"];
+"655" [shape=box, style=filled, label="capcolor
+Info: 0.80
+Entropy: 0.87
+Dominant class: [ 0 12]
+", weight=5]
+652 -> 655 [ label = "f"];
+"656" [shape=box, style=filled, label="0
+(12/5)
+", weight=6]
+655 -> 656 [ label = "b"];
+"657" [shape=box, style=filled, label="0
+(12/5)
+", weight=6]
+655 -> 657 [ label = "c"];
+"658" [shape=box, style=filled, label="0
+(12/5)
+", weight=6]
+655 -> 658 [ label = "e"];
+"659" [shape=box, style=filled, label="stalksurfacebelowring
+Info: 0.57
+Entropy: 0.86
+Dominant class: [0 5]
+", weight=6]
+655 -> 659 [ label = "g"];
+"660" [shape=box, style=filled, label="0
+(3)
+", weight=7]
+659 -> 660 [ label = "f"];
+"661" [shape=box, style=filled, label="0
+(5/2)
+", weight=7]
+659 -> 661 [ label = "k"];
+"662" [shape=box, style=filled, label="0
+(2/2)
+", weight=7]
+659 -> 662 [ label = "s"];
+"663" [shape=box, style=filled, label="0
+(5/2)
+", weight=7]
+659 -> 663 [ label = "y"];
+"664" [shape=box, style=filled, label="0
+(2)
+", weight=6]
+655 -> 664 [ label = "n"];
+"665" [shape=box, style=filled, label="0
+(12/5)
+", weight=6]
+655 -> 665 [ label = "p"];
+"666" [shape=box, style=filled, label="stalksurfacebelowring
+Info: 0.41
+Entropy: 0.95
+Dominant class: [0 5]
+", weight=6]
+655 -> 666 [ label = "w"];
+"667" [shape=box, style=filled, label="capsurface
+Info: 0.69
+Entropy: 0.81
+Dominant class: [1 3]
+", weight=7]
+666 -> 667 [ label = "f"];
+"668" [shape=box, style=filled, label="stalksurfaceabovering
+Info: 0.67
+Entropy: 0.92
+Dominant class: [1 2]
+", weight=8]
+667 -> 668 [ label = "f"];
+"669" [shape=box, style=filled, label="1
+(1)
+", weight=9]
+668 -> 669 [ label = "f"];
+"670" [shape=box, style=filled, label="1
+(2/1)
+", weight=9]
+668 -> 670 [ label = "k"];
+"671" [shape=box, style=filled, label="population
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=9]
+668 -> 671 [ label = "s"];
+"672" [shape=box, style=filled, label="0
+(1)
+", weight=10]
+671 -> 672 [ label = "a"];
+"673" [shape=box, style=filled, label="0
+(1/1)
+", weight=10]
+671 -> 673 [ label = "c"];
+"674" [shape=box, style=filled, label="0
+(1/1)
+", weight=10]
+671 -> 674 [ label = "n"];
+"675" [shape=box, style=filled, label="1
+(1)
+", weight=10]
+671 -> 675 [ label = "s"];
+"676" [shape=box, style=filled, label="0
+(1/1)
+", weight=10]
+671 -> 676 [ label = "v"];
+"677" [shape=box, style=filled, label="0
+(1/1)
+", weight=10]
+671 -> 677 [ label = "y"];
+"678" [shape=box, style=filled, label="1
+(2/1)
+", weight=9]
+668 -> 678 [ label = "y"];
+"679" [shape=box, style=filled, label="1
+(3/1)
+", weight=8]
+667 -> 679 [ label = "g"];
+"680" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+667 -> 680 [ label = "s"];
+"681" [shape=box, style=filled, label="1
+(3/1)
+", weight=8]
+667 -> 681 [ label = "y"];
+"682" [shape=box, style=filled, label="0
+(5/3)
+", weight=7]
+666 -> 682 [ label = "k"];
+"683" [shape=box, style=filled, label="0
+(4)
+", weight=7]
+666 -> 683 [ label = "s"];
+"684" [shape=box, style=filled, label="0
+(5/3)
+", weight=7]
+666 -> 684 [ label = "y"];
+"685" [shape=box, style=filled, label="0
+(12/5)
+", weight=6]
+655 -> 685 [ label = "y"];
+"686" [shape=box, style=filled, label="0
+(31/8)
+", weight=5]
+652 -> 686 [ label = "k"];
+"687" [shape=box, style=filled, label="population
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=5]
+652 -> 687 [ label = "s"];
+"688" [shape=box, style=filled, label="0
+(1/1)
+", weight=6]
+687 -> 688 [ label = "a"];
+"689" [shape=box, style=filled, label="0
+(1/1)
+", weight=6]
+687 -> 689 [ label = "c"];
+"690" [shape=box, style=filled, label="0
+(1/1)
+", weight=6]
+687 -> 690 [ label = "n"];
+"691" [shape=box, style=filled, label="0
+(1/1)
+", weight=6]
+687 -> 691 [ label = "s"];
+"692" [shape=box, style=filled, label="1
+(1)
+", weight=6]
+687 -> 692 [ label = "v"];
+"693" [shape=box, style=filled, label="0
+(1)
+", weight=6]
+687 -> 693 [ label = "y"];
+"694" [shape=box, style=filled, label="stalksurfacebelowring
+Info: 0.36
+Entropy: 0.47
+Dominant class: [ 0 18]
+", weight=5]
+652 -> 694 [ label = "x"];
+"695" [shape=box, style=filled, label="0
+(10)
+", weight=6]
+694 -> 695 [ label = "f"];
+"696" [shape=box, style=filled, label="0
+(18/2)
+", weight=6]
+694 -> 696 [ label = "k"];
+"697" [shape=box, style=filled, label="population
+Info: 0.40
+Entropy: 0.72
+Dominant class: [0 8]
+", weight=6]
+694 -> 697 [ label = "s"];
+"698" [shape=box, style=filled, label="0
+(4)
+", weight=7]
+697 -> 698 [ label = "a"];
+"699" [shape=box, style=filled, label="0
+(8/2)
+", weight=7]
+697 -> 699 [ label = "c"];
+"700" [shape=box, style=filled, label="0
+(8/2)
+", weight=7]
+697 -> 700 [ label = "n"];
+"701" [shape=box, style=filled, label="capcolor
+Info: 0.50
+Entropy: 1.00
+Dominant class: [0 2]
+", weight=7]
+697 -> 701 [ label = "s"];
+"702" [shape=box, style=filled, label="0
+(2/2)
+", weight=8]
+701 -> 702 [ label = "b"];
+"703" [shape=box, style=filled, label="0
+(2/2)
+", weight=8]
+701 -> 703 [ label = "c"];
+"704" [shape=box, style=filled, label="0
+(2/2)
+", weight=8]
+701 -> 704 [ label = "e"];
+"705" [shape=box, style=filled, label="stalksurfaceabovering
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=8]
+701 -> 705 [ label = "g"];
+"706" [shape=box, style=filled, label="0
+(1)
+", weight=9]
+705 -> 706 [ label = "f"];
+"707" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+705 -> 707 [ label = "k"];
+"708" [shape=box, style=filled, label="1
+(1)
+", weight=9]
+705 -> 708 [ label = "s"];
+"709" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+705 -> 709 [ label = "y"];
+"710" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+701 -> 710 [ label = "n"];
+"711" [shape=box, style=filled, label="0
+(2/2)
+", weight=8]
+701 -> 711 [ label = "p"];
+"712" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+701 -> 712 [ label = "w"];
+"713" [shape=box, style=filled, label="0
+(2/2)
+", weight=8]
+701 -> 713 [ label = "y"];
+"714" [shape=box, style=filled, label="0
+(1)
+", weight=7]
+697 -> 714 [ label = "v"];
+"715" [shape=box, style=filled, label="0
+(1)
+", weight=7]
+697 -> 715 [ label = "y"];
+"716" [shape=box, style=filled, label="0
+(18/2)
+", weight=6]
+694 -> 716 [ label = "y"];
+"717" [shape=box, style=filled, label="population
+Info: 0.23
+Entropy: 0.27
+Dominant class: [ 0 84]
+", weight=4]
+605 -> 717 [ label = "n"];
+"718" [shape=box, style=filled, label="capsurface
+Info: 0.30
+Entropy: 0.41
+Dominant class: [ 0 11]
+", weight=5]
+717 -> 718 [ label = "a"];
+"719" [shape=box, style=filled, label="capshape
+Info: 0.40
+Entropy: 0.72
+Dominant class: [0 4]
+", weight=6]
+718 -> 719 [ label = "f"];
+"720" [shape=box, style=filled, label="0
+(4/1)
+", weight=7]
+719 -> 720 [ label = "b"];
+"721" [shape=box, style=filled, label="0
+(4/1)
+", weight=7]
+719 -> 721 [ label = "c"];
+"722" [shape=box, style=filled, label="stalksurfaceabovering
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=7]
+719 -> 722 [ label = "f"];
+"723" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+722 -> 723 [ label = "f"];
+"724" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+722 -> 724 [ label = "k"];
+"725" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+722 -> 725 [ label = "s"];
+"726" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+722 -> 726 [ label = "y"];
+"727" [shape=box, style=filled, label="0
+(4/1)
+", weight=7]
+719 -> 727 [ label = "k"];
+"728" [shape=box, style=filled, label="0
+(4/1)
+", weight=7]
+719 -> 728 [ label = "s"];
+"729" [shape=box, style=filled, label="0
+(3)
+", weight=7]
+719 -> 729 [ label = "x"];
+"730" [shape=box, style=filled, label="0
+(11/1)
+", weight=6]
+718 -> 730 [ label = "g"];
+"731" [shape=box, style=filled, label="0
+(7)
+", weight=6]
+718 -> 731 [ label = "s"];
+"732" [shape=box, style=filled, label="0
+(11/1)
+", weight=6]
+718 -> 732 [ label = "y"];
+"733" [shape=box, style=filled, label="0
+(84/4)
+", weight=5]
+717 -> 733 [ label = "c"];
+"734" [shape=box, style=filled, label="0
+(84/4)
+", weight=5]
+717 -> 734 [ label = "n"];
+"735" [shape=box, style=filled, label="stalksurfaceabovering
+Info: 0.24
+Entropy: 0.34
+Dominant class: [ 0 15]
+", weight=5]
+717 -> 735 [ label = "s"];
+"736" [shape=box, style=filled, label="capshape
+Info: 0.46
+Entropy: 0.65
+Dominant class: [0 5]
+", weight=6]
+735 -> 736 [ label = "f"];
+"737" [shape=box, style=filled, label="0
+(5/1)
+", weight=7]
+736 -> 737 [ label = "b"];
+"738" [shape=box, style=filled, label="0
+(5/1)
+", weight=7]
+736 -> 738 [ label = "c"];
+"739" [shape=box, style=filled, label="0
+(3)
+", weight=7]
+736 -> 739 [ label = "f"];
+"740" [shape=box, style=filled, label="0
+(5/1)
+", weight=7]
+736 -> 740 [ label = "k"];
+"741" [shape=box, style=filled, label="0
+(5/1)
+", weight=7]
+736 -> 741 [ label = "s"];
+"742" [shape=box, style=filled, label="capsurface
+Info: 0.67
+Entropy: 0.92
+Dominant class: [0 2]
+", weight=7]
+736 -> 742 [ label = "x"];
+"743" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+742 -> 743 [ label = "f"];
+"744" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+742 -> 744 [ label = "g"];
+"745" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+742 -> 745 [ label = "s"];
+"746" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+742 -> 746 [ label = "y"];
+"747" [shape=box, style=filled, label="0
+(15/1)
+", weight=6]
+735 -> 747 [ label = "k"];
+"748" [shape=box, style=filled, label="0
+(10)
+", weight=6]
+735 -> 748 [ label = "s"];
+"749" [shape=box, style=filled, label="0
+(15/1)
+", weight=6]
+735 -> 749 [ label = "y"];
+"750" [shape=box, style=filled, label="capshape
+Info: 0.31
+Entropy: 0.39
+Dominant class: [ 0 24]
+", weight=5]
+717 -> 750 [ label = "v"];
+"751" [shape=box, style=filled, label="0
+(24/2)
+", weight=6]
+750 -> 751 [ label = "b"];
+"752" [shape=box, style=filled, label="0
+(24/2)
+", weight=6]
+750 -> 752 [ label = "c"];
+"753" [shape=box, style=filled, label="0
+(12)
+", weight=6]
+750 -> 753 [ label = "f"];
+"754" [shape=box, style=filled, label="0
+(24/2)
+", weight=6]
+750 -> 754 [ label = "k"];
+"755" [shape=box, style=filled, label="0
+(1)
+", weight=6]
+750 -> 755 [ label = "s"];
+"756" [shape=box, style=filled, label="stalkcolorabovering
+Info: 0.51
+Entropy: 0.62
+Dominant class: [ 0 11]
+", weight=6]
+750 -> 756 [ label = "x"];
+"757" [shape=box, style=filled, label="0
+(11/2)
+", weight=7]
+756 -> 757 [ label = "b"];
+"758" [shape=box, style=filled, label="0
+(11/2)
+", weight=7]
+756 -> 758 [ label = "c"];
+"759" [shape=box, style=filled, label="capcolor
+Info: 0.00
+Entropy: 0.92
+Dominant class: [0 2]
+", weight=7]
+756 -> 759 [ label = "g"];
+"760" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+759 -> 760 [ label = "b"];
+"761" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+759 -> 761 [ label = "c"];
+"762" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+759 -> 762 [ label = "e"];
+"763" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+759 -> 763 [ label = "g"];
+"764" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+759 -> 764 [ label = "n"];
+"765" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+759 -> 765 [ label = "p"];
+"766" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+759 -> 766 [ label = "w"];
+"767" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+759 -> 767 [ label = "y"];
+"768" [shape=box, style=filled, label="0
+(11/2)
+", weight=7]
+756 -> 768 [ label = "n"];
+"769" [shape=box, style=filled, label="stalkcolorbelowring
+Info: 0.33
+Entropy: 0.65
+Dominant class: [0 5]
+", weight=7]
+756 -> 769 [ label = "p"];
+"770" [shape=box, style=filled, label="0
+(5/1)
+", weight=8]
+769 -> 770 [ label = "b"];
+"771" [shape=box, style=filled, label="0
+(5/1)
+", weight=8]
+769 -> 771 [ label = "c"];
+"772" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+769 -> 772 [ label = "g"];
+"773" [shape=box, style=filled, label="0
+(5/1)
+", weight=8]
+769 -> 773 [ label = "n"];
+"774" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+769 -> 774 [ label = "p"];
+"775" [shape=box, style=filled, label="0
+(3)
+", weight=8]
+769 -> 775 [ label = "w"];
+"776" [shape=box, style=filled, label="0
+(5/1)
+", weight=8]
+769 -> 776 [ label = "y"];
+"777" [shape=box, style=filled, label="0
+(4)
+", weight=7]
+756 -> 777 [ label = "w"];
+"778" [shape=box, style=filled, label="0
+(11/2)
+", weight=7]
+756 -> 778 [ label = "y"];
+"779" [shape=box, style=filled, label="0
+(34)
+", weight=5]
+717 -> 779 [ label = "y"];
+"780" [shape=box, style=filled, label="capsurface
+Info: 0.42
+Entropy: 0.50
+Dominant class: [ 0 80]
+", weight=4]
+605 -> 780 [ label = "p"];
+"781" [shape=box, style=filled, label="capcolor
+Info: 0.67
+Entropy: 0.70
+Dominant class: [ 0 38]
+", weight=5]
+780 -> 781 [ label = "f"];
+"782" [shape=box, style=filled, label="0
+(38/9)
+", weight=6]
+781 -> 782 [ label = "b"];
+"783" [shape=box, style=filled, label="0
+(38/9)
+", weight=6]
+781 -> 783 [ label = "c"];
+"784" [shape=box, style=filled, label="stalkcolorabovering
+Info: 0.60
+Entropy: 0.81
+Dominant class: [0 9]
+", weight=6]
+781 -> 784 [ label = "e"];
+"785" [shape=box, style=filled, label="0
+(9/3)
+", weight=7]
+784 -> 785 [ label = "b"];
+"786" [shape=box, style=filled, label="0
+(9/3)
+", weight=7]
+784 -> 786 [ label = "c"];
+"787" [shape=box, style=filled, label="0
+(4)
+", weight=7]
+784 -> 787 [ label = "g"];
+"788" [shape=box, style=filled, label="0
+(9/3)
+", weight=7]
+784 -> 788 [ label = "n"];
+"789" [shape=box, style=filled, label="0
+(2/2)
+", weight=7]
+784 -> 789 [ label = "p"];
+"790" [shape=box, style=filled, label="population
+Info: 0.50
+Entropy: 0.81
+Dominant class: [0 3]
+", weight=7]
+784 -> 790 [ label = "w"];
+"791" [shape=box, style=filled, label="0
+(3/1)
+", weight=8]
+790 -> 791 [ label = "a"];
+"792" [shape=box, style=filled, label="0
+(3/1)
+", weight=8]
+790 -> 792 [ label = "c"];
+"793" [shape=box, style=filled, label="0
+(3/1)
+", weight=8]
+790 -> 793 [ label = "n"];
+"794" [shape=box, style=filled, label="0
+(3/1)
+", weight=8]
+790 -> 794 [ label = "s"];
+"795" [shape=box, style=filled, label="0
+(2)
+", weight=8]
+790 -> 795 [ label = "v"];
+"796" [shape=box, style=filled, label="stalkcolorbelowring
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=8]
+790 -> 796 [ label = "y"];
+"797" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+796 -> 797 [ label = "b"];
+"798" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+796 -> 798 [ label = "c"];
+"799" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+796 -> 799 [ label = "g"];
+"800" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+796 -> 800 [ label = "n"];
+"801" [shape=box, style=filled, label="0
+(1)
+", weight=9]
+796 -> 801 [ label = "p"];
+"802" [shape=box, style=filled, label="1
+(1)
+", weight=9]
+796 -> 802 [ label = "w"];
+"803" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+796 -> 803 [ label = "y"];
+"804" [shape=box, style=filled, label="0
+(9/3)
+", weight=7]
+784 -> 804 [ label = "y"];
+"805" [shape=box, style=filled, label="stalkcolorbelowring
+Info: 0.21
+Entropy: 0.39
+Dominant class: [ 0 12]
+", weight=6]
+781 -> 805 [ label = "g"];
+"806" [shape=box, style=filled, label="0
+(12/1)
+", weight=7]
+805 -> 806 [ label = "b"];
+"807" [shape=box, style=filled, label="0
+(12/1)
+", weight=7]
+805 -> 807 [ label = "c"];
+"808" [shape=box, style=filled, label="0
+(4)
+", weight=7]
+805 -> 808 [ label = "g"];
+"809" [shape=box, style=filled, label="0
+(12/1)
+", weight=7]
+805 -> 809 [ label = "n"];
+"810" [shape=box, style=filled, label="0
+(2/1)
+", weight=7]
+805 -> 810 [ label = "p"];
+"811" [shape=box, style=filled, label="0
+(6)
+", weight=7]
+805 -> 811 [ label = "w"];
+"812" [shape=box, style=filled, label="0
+(12/1)
+", weight=7]
+805 -> 812 [ label = "y"];
+"813" [shape=box, style=filled, label="stalkcolorabovering
+Info: 0.64
+Entropy: 0.70
+Dominant class: [ 0 13]
+", weight=6]
+781 -> 813 [ label = "n"];
+"814" [shape=box, style=filled, label="0
+(13/3)
+", weight=7]
+813 -> 814 [ label = "b"];
+"815" [shape=box, style=filled, label="0
+(13/3)
+", weight=7]
+813 -> 815 [ label = "c"];
+"816" [shape=box, style=filled, label="population
+Info: 0.00
+Entropy: 0.92
+Dominant class: [0 2]
+", weight=7]
+813 -> 816 [ label = "g"];
+"817" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+816 -> 817 [ label = "a"];
+"818" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+816 -> 818 [ label = "c"];
+"819" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+816 -> 819 [ label = "n"];
+"820" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+816 -> 820 [ label = "s"];
+"821" [shape=box, style=filled, label="0
+(2)
+", weight=8]
+816 -> 821 [ label = "v"];
+"822" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+816 -> 822 [ label = "y"];
+"823" [shape=box, style=filled, label="0
+(13/3)
+", weight=7]
+813 -> 823 [ label = "n"];
+"824" [shape=box, style=filled, label="0
+(2)
+", weight=7]
+813 -> 824 [ label = "p"];
+"825" [shape=box, style=filled, label="population
+Info: 0.62
+Entropy: 0.68
+Dominant class: [0 9]
+", weight=7]
+813 -> 825 [ label = "w"];
+"826" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+825 -> 826 [ label = "a"];
+"827" [shape=box, style=filled, label="0
+(9/2)
+", weight=8]
+825 -> 827 [ label = "c"];
+"828" [shape=box, style=filled, label="0
+(9/2)
+", weight=8]
+825 -> 828 [ label = "n"];
+"829" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+825 -> 829 [ label = "s"];
+"830" [shape=box, style=filled, label="0
+(3/1)
+", weight=8]
+825 -> 830 [ label = "v"];
+"831" [shape=box, style=filled, label="stalkcolorbelowring
+Info: 0.40
+Entropy: 0.72
+Dominant class: [0 4]
+", weight=8]
+825 -> 831 [ label = "y"];
+"832" [shape=box, style=filled, label="0
+(4/1)
+", weight=9]
+831 -> 832 [ label = "b"];
+"833" [shape=box, style=filled, label="0
+(4/1)
+", weight=9]
+831 -> 833 [ label = "c"];
+"834" [shape=box, style=filled, label="0
+(1)
+", weight=9]
+831 -> 834 [ label = "g"];
+"835" [shape=box, style=filled, label="0
+(4/1)
+", weight=9]
+831 -> 835 [ label = "n"];
+"836" [shape=box, style=filled, label="capshape
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=9]
+831 -> 836 [ label = "p"];
+"837" [shape=box, style=filled, label="0
+(1/1)
+", weight=10]
+836 -> 837 [ label = "b"];
+"838" [shape=box, style=filled, label="0
+(1/1)
+", weight=10]
+836 -> 838 [ label = "c"];
+"839" [shape=box, style=filled, label="0
+(1)
+", weight=10]
+836 -> 839 [ label = "f"];
+"840" [shape=box, style=filled, label="0
+(1/1)
+", weight=10]
+836 -> 840 [ label = "k"];
+"841" [shape=box, style=filled, label="0
+(1/1)
+", weight=10]
+836 -> 841 [ label = "s"];
+"842" [shape=box, style=filled, label="1
+(1)
+", weight=10]
+836 -> 842 [ label = "x"];
+"843" [shape=box, style=filled, label="0
+(2)
+", weight=9]
+831 -> 843 [ label = "w"];
+"844" [shape=box, style=filled, label="0
+(4/1)
+", weight=9]
+831 -> 844 [ label = "y"];
+"845" [shape=box, style=filled, label="0
+(13/3)
+", weight=7]
+813 -> 845 [ label = "y"];
+"846" [shape=box, style=filled, label="0
+(38/9)
+", weight=6]
+781 -> 846 [ label = "p"];
+"847" [shape=box, style=filled, label="capshape
+Info: 0.87
+Entropy: 0.92
+Dominant class: [0 4]
+", weight=6]
+781 -> 847 [ label = "w"];
+"848" [shape=box, style=filled, label="0
+(4/2)
+", weight=7]
+847 -> 848 [ label = "b"];
+"849" [shape=box, style=filled, label="0
+(4/2)
+", weight=7]
+847 -> 849 [ label = "c"];
+"850" [shape=box, style=filled, label="stalksurfaceabovering
+Info: 0.50
+Entropy: 0.81
+Dominant class: [0 3]
+", weight=7]
+847 -> 850 [ label = "f"];
+"851" [shape=box, style=filled, label="0
+(2)
+", weight=8]
+850 -> 851 [ label = "f"];
+"852" [shape=box, style=filled, label="0
+(3/1)
+", weight=8]
+850 -> 852 [ label = "k"];
+"853" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+850 -> 853 [ label = "s"];
+"854" [shape=box, style=filled, label="0
+(3/1)
+", weight=8]
+850 -> 854 [ label = "y"];
+"855" [shape=box, style=filled, label="0
+(4/2)
+", weight=7]
+847 -> 855 [ label = "k"];
+"856" [shape=box, style=filled, label="0
+(4/2)
+", weight=7]
+847 -> 856 [ label = "s"];
+"857" [shape=box, style=filled, label="stalksurfaceabovering
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=7]
+847 -> 857 [ label = "x"];
+"858" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+857 -> 858 [ label = "f"];
+"859" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+857 -> 859 [ label = "k"];
+"860" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+857 -> 860 [ label = "s"];
+"861" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+857 -> 861 [ label = "y"];
+"862" [shape=box, style=filled, label="0
+(38/9)
+", weight=6]
+781 -> 862 [ label = "y"];
+"863" [shape=box, style=filled, label="0
+(80/10)
+", weight=5]
+780 -> 863 [ label = "g"];
+"864" [shape=box, style=filled, label="population
+Info: 0.22
+Entropy: 0.50
+Dominant class: [0 8]
+", weight=5]
+780 -> 864 [ label = "s"];
+"865" [shape=box, style=filled, label="capcolor
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=6]
+864 -> 865 [ label = "a"];
+"866" [shape=box, style=filled, label="0
+(1/1)
+", weight=7]
+865 -> 866 [ label = "b"];
+"867" [shape=box, style=filled, label="0
+(1/1)
+", weight=7]
+865 -> 867 [ label = "c"];
+"868" [shape=box, style=filled, label="0
+(1/1)
+", weight=7]
+865 -> 868 [ label = "e"];
+"869" [shape=box, style=filled, label="0
+(1)
+", weight=7]
+865 -> 869 [ label = "g"];
+"870" [shape=box, style=filled, label="0
+(1/1)
+", weight=7]
+865 -> 870 [ label = "n"];
+"871" [shape=box, style=filled, label="0
+(1/1)
+", weight=7]
+865 -> 871 [ label = "p"];
+"872" [shape=box, style=filled, label="1
+(1)
+", weight=7]
+865 -> 872 [ label = "w"];
+"873" [shape=box, style=filled, label="0
+(1/1)
+", weight=7]
+865 -> 873 [ label = "y"];
+"874" [shape=box, style=filled, label="0
+(8/1)
+", weight=6]
+864 -> 874 [ label = "c"];
+"875" [shape=box, style=filled, label="0
+(8/1)
+", weight=6]
+864 -> 875 [ label = "n"];
+"876" [shape=box, style=filled, label="0
+(7)
+", weight=6]
+864 -> 876 [ label = "s"];
+"877" [shape=box, style=filled, label="0
+(8/1)
+", weight=6]
+864 -> 877 [ label = "v"];
+"878" [shape=box, style=filled, label="0
+(8/1)
+", weight=6]
+864 -> 878 [ label = "y"];
+"879" [shape=box, style=filled, label="0
+(34)
+", weight=5]
+780 -> 879 [ label = "y"];
+"880" [shape=box, style=filled, label="0
+(312/40)
+", weight=4]
+605 -> 880 [ label = "r"];
+"881" [shape=box, style=filled, label="stalkcolorbelowring
+Info: 0.54
+Entropy: 0.60
+Dominant class: [ 0 47]
+", weight=4]
+605 -> 881 [ label = "u"];
+"882" [shape=box, style=filled, label="0
+(47/8)
+", weight=5]
+881 -> 882 [ label = "b"];
+"883" [shape=box, style=filled, label="0
+(47/8)
+", weight=5]
+881 -> 883 [ label = "c"];
+"884" [shape=box, style=filled, label="stalkcolorabovering
+Info: 0.57
+Entropy: 0.74
+Dominant class: [ 0 15]
+", weight=5]
+881 -> 884 [ label = "g"];
+"885" [shape=box, style=filled, label="0
+(15/4)
+", weight=6]
+884 -> 885 [ label = "b"];
+"886" [shape=box, style=filled, label="0
+(15/4)
+", weight=6]
+884 -> 886 [ label = "c"];
+"887" [shape=box, style=filled, label="0
+(6)
+", weight=6]
+884 -> 887 [ label = "g"];
+"888" [shape=box, style=filled, label="0
+(15/4)
+", weight=6]
+884 -> 888 [ label = "n"];
+"889" [shape=box, style=filled, label="population
+Info: 0.33
+Entropy: 0.65
+Dominant class: [0 5]
+", weight=6]
+884 -> 889 [ label = "p"];
+"890" [shape=box, style=filled, label="0
+(5/1)
+", weight=7]
+889 -> 890 [ label = "a"];
+"891" [shape=box, style=filled, label="0
+(5/1)
+", weight=7]
+889 -> 891 [ label = "c"];
+"892" [shape=box, style=filled, label="0
+(5/1)
+", weight=7]
+889 -> 892 [ label = "n"];
+"893" [shape=box, style=filled, label="0
+(5/1)
+", weight=7]
+889 -> 893 [ label = "s"];
+"894" [shape=box, style=filled, label="0
+(1/1)
+", weight=7]
+889 -> 894 [ label = "v"];
+"895" [shape=box, style=filled, label="0
+(4)
+", weight=7]
+889 -> 895 [ label = "y"];
+"896" [shape=box, style=filled, label="0
+(4/3)
+", weight=6]
+884 -> 896 [ label = "w"];
+"897" [shape=box, style=filled, label="0
+(15/4)
+", weight=6]
+884 -> 897 [ label = "y"];
+"898" [shape=box, style=filled, label="0
+(47/8)
+", weight=5]
+881 -> 898 [ label = "n"];
+"899" [shape=box, style=filled, label="0
+(11)
+", weight=5]
+881 -> 899 [ label = "p"];
+"900" [shape=box, style=filled, label="capshape
+Info: 0.59
+Entropy: 0.63
+Dominant class: [ 0 21]
+", weight=5]
+881 -> 900 [ label = "w"];
+"901" [shape=box, style=filled, label="0
+(21/4)
+", weight=6]
+900 -> 901 [ label = "b"];
+"902" [shape=box, style=filled, label="0
+(21/4)
+", weight=6]
+900 -> 902 [ label = "c"];
+"903" [shape=box, style=filled, label="capcolor
+Info: 0.28
+Entropy: 0.39
+Dominant class: [ 0 12]
+", weight=6]
+900 -> 903 [ label = "f"];
+"904" [shape=box, style=filled, label="0
+(12/1)
+", weight=7]
+903 -> 904 [ label = "b"];
+"905" [shape=box, style=filled, label="0
+(12/1)
+", weight=7]
+903 -> 905 [ label = "c"];
+"906" [shape=box, style=filled, label="0
+(4)
+", weight=7]
+903 -> 906 [ label = "e"];
+"907" [shape=box, style=filled, label="0
+(4)
+", weight=7]
+903 -> 907 [ label = "g"];
+"908" [shape=box, style=filled, label="1
+(4/1)
+", weight=7]
+903 -> 908 [ label = "n"];
+"909" [shape=box, style=filled, label="0
+(12/1)
+", weight=7]
+903 -> 909 [ label = "p"];
+"910" [shape=box, style=filled, label="0
+(12/1)
+", weight=7]
+903 -> 910 [ label = "w"];
+"911" [shape=box, style=filled, label="0
+(12/1)
+", weight=7]
+903 -> 911 [ label = "y"];
+"912" [shape=box, style=filled, label="0
+(21/4)
+", weight=6]
+900 -> 912 [ label = "k"];
+"913" [shape=box, style=filled, label="0
+(21/4)
+", weight=6]
+900 -> 913 [ label = "s"];
+"914" [shape=box, style=filled, label="population
+Info: 0.40
+Entropy: 0.81
+Dominant class: [0 9]
+", weight=6]
+900 -> 914 [ label = "x"];
+"915" [shape=box, style=filled, label="0
+(9/3)
+", weight=7]
+914 -> 915 [ label = "a"];
+"916" [shape=box, style=filled, label="0
+(9/3)
+", weight=7]
+914 -> 916 [ label = "c"];
+"917" [shape=box, style=filled, label="0
+(9/3)
+", weight=7]
+914 -> 917 [ label = "n"];
+"918" [shape=box, style=filled, label="0
+(9/3)
+", weight=7]
+914 -> 918 [ label = "s"];
+"919" [shape=box, style=filled, label="0
+(7)
+", weight=7]
+914 -> 919 [ label = "v"];
+"920" [shape=box, style=filled, label="capsurface
+Info: 0.55
+Entropy: 0.97
+Dominant class: [1 3]
+", weight=7]
+914 -> 920 [ label = "y"];
+"921" [shape=box, style=filled, label="1
+(2)
+", weight=8]
+920 -> 921 [ label = "f"];
+"922" [shape=box, style=filled, label="1
+(3/2)
+", weight=8]
+920 -> 922 [ label = "g"];
+"923" [shape=box, style=filled, label="1
+(3/2)
+", weight=8]
+920 -> 923 [ label = "s"];
+"924" [shape=box, style=filled, label="capcolor
+Info: 0.67
+Entropy: 0.92
+Dominant class: [0 2]
+", weight=8]
+920 -> 924 [ label = "y"];
+"925" [shape=box, style=filled, label="0
+(2/1)
+", weight=9]
+924 -> 925 [ label = "b"];
+"926" [shape=box, style=filled, label="0
+(2/1)
+", weight=9]
+924 -> 926 [ label = "c"];
+"927" [shape=box, style=filled, label="stalkcolorabovering
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=9]
+924 -> 927 [ label = "e"];
+"928" [shape=box, style=filled, label="0
+(1/1)
+", weight=10]
+927 -> 928 [ label = "b"];
+"929" [shape=box, style=filled, label="0
+(1/1)
+", weight=10]
+927 -> 929 [ label = "c"];
+"930" [shape=box, style=filled, label="0
+(1/1)
+", weight=10]
+927 -> 930 [ label = "g"];
+"931" [shape=box, style=filled, label="0
+(1/1)
+", weight=10]
+927 -> 931 [ label = "n"];
+"932" [shape=box, style=filled, label="1
+(1)
+", weight=10]
+927 -> 932 [ label = "p"];
+"933" [shape=box, style=filled, label="0
+(1)
+", weight=10]
+927 -> 933 [ label = "w"];
+"934" [shape=box, style=filled, label="0
+(1/1)
+", weight=10]
+927 -> 934 [ label = "y"];
+"935" [shape=box, style=filled, label="0
+(2/1)
+", weight=9]
+924 -> 935 [ label = "g"];
+"936" [shape=box, style=filled, label="0
+(1)
+", weight=9]
+924 -> 936 [ label = "n"];
+"937" [shape=box, style=filled, label="0
+(2/1)
+", weight=9]
+924 -> 937 [ label = "p"];
+"938" [shape=box, style=filled, label="0
+(2/1)
+", weight=9]
+924 -> 938 [ label = "w"];
+"939" [shape=box, style=filled, label="0
+(2/1)
+", weight=9]
+924 -> 939 [ label = "y"];
+"940" [shape=box, style=filled, label="0
+(47/8)
+", weight=5]
+881 -> 940 [ label = "y"];
+"941" [shape=box, style=filled, label="stalkcolorbelowring
+Info: 0.41
+Entropy: 0.49
+Dominant class: [ 0 50]
+", weight=4]
+605 -> 941 [ label = "w"];
+"942" [shape=box, style=filled, label="0
+(50/6)
+", weight=5]
+941 -> 942 [ label = "b"];
+"943" [shape=box, style=filled, label="0
+(50/6)
+", weight=5]
+941 -> 943 [ label = "c"];
+"944" [shape=box, style=filled, label="stalkcolorabovering
+Info: 0.57
+Entropy: 0.74
+Dominant class: [ 0 15]
+", weight=5]
+941 -> 944 [ label = "g"];
+"945" [shape=box, style=filled, label="0
+(15/4)
+", weight=6]
+944 -> 945 [ label = "b"];
+"946" [shape=box, style=filled, label="0
+(15/4)
+", weight=6]
+944 -> 946 [ label = "c"];
+"947" [shape=box, style=filled, label="capcolor
+Info: 0.58
+Entropy: 0.76
+Dominant class: [0 7]
+", weight=6]
+944 -> 947 [ label = "g"];
+"948" [shape=box, style=filled, label="0
+(7/2)
+", weight=7]
+947 -> 948 [ label = "b"];
+"949" [shape=box, style=filled, label="0
+(7/2)
+", weight=7]
+947 -> 949 [ label = "c"];
+"950" [shape=box, style=filled, label="0
+(3/1)
+", weight=7]
+947 -> 950 [ label = "e"];
+"951" [shape=box, style=filled, label="0
+(3)
+", weight=7]
+947 -> 951 [ label = "g"];
+"952" [shape=box, style=filled, label="0
+(1/1)
+", weight=7]
+947 -> 952 [ label = "n"];
+"953" [shape=box, style=filled, label="0
+(7/2)
+", weight=7]
+947 -> 953 [ label = "p"];
+"954" [shape=box, style=filled, label="0
+(7/2)
+", weight=7]
+947 -> 954 [ label = "w"];
+"955" [shape=box, style=filled, label="0
+(7/2)
+", weight=7]
+947 -> 955 [ label = "y"];
+"956" [shape=box, style=filled, label="0
+(15/4)
+", weight=6]
+944 -> 956 [ label = "n"];
+"957" [shape=box, style=filled, label="0
+(2/2)
+", weight=6]
+944 -> 957 [ label = "p"];
+"958" [shape=box, style=filled, label="0
+(6)
+", weight=6]
+944 -> 958 [ label = "w"];
+"959" [shape=box, style=filled, label="0
+(15/4)
+", weight=6]
+944 -> 959 [ label = "y"];
+"960" [shape=box, style=filled, label="0
+(50/6)
+", weight=5]
+941 -> 960 [ label = "n"];
+"961" [shape=box, style=filled, label="0
+(20)
+", weight=5]
+941 -> 961 [ label = "p"];
+"962" [shape=box, style=filled, label="capcolor
+Info: 0.36
+Entropy: 0.52
+Dominant class: [ 0 15]
+", weight=5]
+941 -> 962 [ label = "w"];
+"963" [shape=box, style=filled, label="0
+(15/2)
+", weight=6]
+962 -> 963 [ label = "b"];
+"964" [shape=box, style=filled, label="0
+(15/2)
+", weight=6]
+962 -> 964 [ label = "c"];
+"965" [shape=box, style=filled, label="capshape
+Info: 0.39
+Entropy: 0.86
+Dominant class: [0 5]
+", weight=6]
+962 -> 965 [ label = "e"];
+"966" [shape=box, style=filled, label="0
+(5/2)
+", weight=7]
+965 -> 966 [ label = "b"];
+"967" [shape=box, style=filled, label="0
+(5/2)
+", weight=7]
+965 -> 967 [ label = "c"];
+"968" [shape=box, style=filled, label="stalkcolorabovering
+Info: 0.00
+Entropy: 0.92
+Dominant class: [1 2]
+", weight=7]
+965 -> 968 [ label = "f"];
+"969" [shape=box, style=filled, label="1
+(2/1)
+", weight=8]
+968 -> 969 [ label = "b"];
+"970" [shape=box, style=filled, label="1
+(2/1)
+", weight=8]
+968 -> 970 [ label = "c"];
+"971" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+968 -> 971 [ label = "g"];
+"972" [shape=box, style=filled, label="1
+(2/1)
+", weight=8]
+968 -> 972 [ label = "n"];
+"973" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+968 -> 973 [ label = "p"];
+"974" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+968 -> 974 [ label = "w"];
+"975" [shape=box, style=filled, label="1
+(2/1)
+", weight=8]
+968 -> 975 [ label = "y"];
+"976" [shape=box, style=filled, label="0
+(5/2)
+", weight=7]
+965 -> 976 [ label = "k"];
+"977" [shape=box, style=filled, label="0
+(5/2)
+", weight=7]
+965 -> 977 [ label = "s"];
+"978" [shape=box, style=filled, label="0
+(4)
+", weight=7]
+965 -> 978 [ label = "x"];
+"979" [shape=box, style=filled, label="0
+(4)
+", weight=6]
+962 -> 979 [ label = "g"];
+"980" [shape=box, style=filled, label="0
+(6)
+", weight=6]
+962 -> 980 [ label = "n"];
+"981" [shape=box, style=filled, label="0
+(15/2)
+", weight=6]
+962 -> 981 [ label = "p"];
+"982" [shape=box, style=filled, label="0
+(15/2)
+", weight=6]
+962 -> 982 [ label = "w"];
+"983" [shape=box, style=filled, label="0
+(15/2)
+", weight=6]
+962 -> 983 [ label = "y"];
+"984" [shape=box, style=filled, label="0
+(50/6)
+", weight=5]
+941 -> 984 [ label = "y"];
+"985" [shape=box, style=filled, label="0
+(312/40)
+", weight=4]
+605 -> 985 [ label = "y"];
+"986" [shape=box, style=filled, label="capcolor
+Info: 0.41
+Entropy: 0.42
+Dominant class: [  0 354]
+", weight=3]
+603 -> 986 [ label = "n"];
+"987" [shape=box, style=filled, label="0
+(354/33)
+", weight=4]
+986 -> 987 [ label = "b"];
+"988" [shape=box, style=filled, label="0
+(354/33)
+", weight=4]
+986 -> 988 [ label = "c"];
+"989" [shape=box, style=filled, label="stalkcolorbelowring
+Info: 0.42
+Entropy: 0.45
+Dominant class: [ 0 78]
+", weight=4]
+986 -> 989 [ label = "e"];
+"990" [shape=box, style=filled, label="0
+(78/8)
+", weight=5]
+989 -> 990 [ label = "b"];
+"991" [shape=box, style=filled, label="0
+(78/8)
+", weight=5]
+989 -> 991 [ label = "c"];
+"992" [shape=box, style=filled, label="stalkcolorabovering
+Info: 0.27
+Entropy: 0.37
+Dominant class: [ 0 26]
+", weight=5]
+989 -> 992 [ label = "g"];
+"993" [shape=box, style=filled, label="0
+(26/2)
+", weight=6]
+992 -> 993 [ label = "b"];
+"994" [shape=box, style=filled, label="0
+(26/2)
+", weight=6]
+992 -> 994 [ label = "c"];
+"995" [shape=box, style=filled, label="0
+(10)
+", weight=6]
+992 -> 995 [ label = "g"];
+"996" [shape=box, style=filled, label="0
+(26/2)
+", weight=6]
+992 -> 996 [ label = "n"];
+"997" [shape=box, style=filled, label="0
+(7)
+", weight=6]
+992 -> 997 [ label = "p"];
+"998" [shape=box, style=filled, label="gillcolor
+Info: 0.43
+Entropy: 0.68
+Dominant class: [0 9]
+", weight=6]
+992 -> 998 [ label = "w"];
+"999" [shape=box, style=filled, label="0
+(9/2)
+", weight=7]
+998 -> 999 [ label = "g"];
+"1000" [shape=box, style=filled, label="0
+(9/2)
+", weight=7]
+998 -> 1000 [ label = "h"];
+"1001" [shape=box, style=filled, label="0
+(9/2)
+", weight=7]
+998 -> 1001 [ label = "k"];
+"1002" [shape=box, style=filled, label="population
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=7]
+998 -> 1002 [ label = "n"];
+"1003" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+1002 -> 1003 [ label = "a"];
+"1004" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+1002 -> 1004 [ label = "c"];
+"1005" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+1002 -> 1005 [ label = "n"];
+"1006" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+1002 -> 1006 [ label = "s"];
+"1007" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+1002 -> 1007 [ label = "v"];
+"1008" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+1002 -> 1008 [ label = "y"];
+"1009" [shape=box, style=filled, label="0
+(3)
+", weight=7]
+998 -> 1009 [ label = "p"];
+"1010" [shape=box, style=filled, label="0
+(9/2)
+", weight=7]
+998 -> 1010 [ label = "r"];
+"1011" [shape=box, style=filled, label="0
+(3)
+", weight=7]
+998 -> 1011 [ label = "u"];
+"1012" [shape=box, style=filled, label="capshape
+Info: 0.67
+Entropy: 0.92
+Dominant class: [0 2]
+", weight=7]
+998 -> 1012 [ label = "w"];
+"1013" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+1012 -> 1013 [ label = "b"];
+"1014" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+1012 -> 1014 [ label = "c"];
+"1015" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+1012 -> 1015 [ label = "f"];
+"1016" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+1012 -> 1016 [ label = "k"];
+"1017" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+1012 -> 1017 [ label = "s"];
+"1018" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+1012 -> 1018 [ label = "x"];
+"1019" [shape=box, style=filled, label="0
+(9/2)
+", weight=7]
+998 -> 1019 [ label = "y"];
+"1020" [shape=box, style=filled, label="0
+(26/2)
+", weight=6]
+992 -> 1020 [ label = "y"];
+"1021" [shape=box, style=filled, label="0
+(78/8)
+", weight=5]
+989 -> 1021 [ label = "n"];
+"1022" [shape=box, style=filled, label="stalkcolorabovering
+Info: 0.59
+Entropy: 0.66
+Dominant class: [ 0 24]
+", weight=5]
+989 -> 1022 [ label = "p"];
+"1023" [shape=box, style=filled, label="0
+(24/5)
+", weight=6]
+1022 -> 1023 [ label = "b"];
+"1024" [shape=box, style=filled, label="0
+(24/5)
+", weight=6]
+1022 -> 1024 [ label = "c"];
+"1025" [shape=box, style=filled, label="gillcolor
+Info: 0.32
+Entropy: 0.47
+Dominant class: [0 9]
+", weight=6]
+1022 -> 1025 [ label = "g"];
+"1026" [shape=box, style=filled, label="0
+(9/1)
+", weight=7]
+1025 -> 1026 [ label = "g"];
+"1027" [shape=box, style=filled, label="0
+(9/1)
+", weight=7]
+1025 -> 1027 [ label = "h"];
+"1028" [shape=box, style=filled, label="0
+(9/1)
+", weight=7]
+1025 -> 1028 [ label = "k"];
+"1029" [shape=box, style=filled, label="0
+(3)
+", weight=7]
+1025 -> 1029 [ label = "n"];
+"1030" [shape=box, style=filled, label="0
+(2)
+", weight=7]
+1025 -> 1030 [ label = "p"];
+"1031" [shape=box, style=filled, label="0
+(9/1)
+", weight=7]
+1025 -> 1031 [ label = "r"];
+"1032" [shape=box, style=filled, label="capshape
+Info: 0.50
+Entropy: 0.81
+Dominant class: [0 3]
+", weight=7]
+1025 -> 1032 [ label = "u"];
+"1033" [shape=box, style=filled, label="0
+(3/1)
+", weight=8]
+1032 -> 1033 [ label = "b"];
+"1034" [shape=box, style=filled, label="0
+(3/1)
+", weight=8]
+1032 -> 1034 [ label = "c"];
+"1035" [shape=box, style=filled, label="population
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=8]
+1032 -> 1035 [ label = "f"];
+"1036" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+1035 -> 1036 [ label = "a"];
+"1037" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+1035 -> 1037 [ label = "c"];
+"1038" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+1035 -> 1038 [ label = "n"];
+"1039" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+1035 -> 1039 [ label = "s"];
+"1040" [shape=box, style=filled, label="1
+(1)
+", weight=9]
+1035 -> 1040 [ label = "v"];
+"1041" [shape=box, style=filled, label="0
+(1)
+", weight=9]
+1035 -> 1041 [ label = "y"];
+"1042" [shape=box, style=filled, label="0
+(3/1)
+", weight=8]
+1032 -> 1042 [ label = "k"];
+"1043" [shape=box, style=filled, label="0
+(3/1)
+", weight=8]
+1032 -> 1043 [ label = "s"];
+"1044" [shape=box, style=filled, label="0
+(2)
+", weight=8]
+1032 -> 1044 [ label = "x"];
+"1045" [shape=box, style=filled, label="0
+(1)
+", weight=7]
+1025 -> 1045 [ label = "w"];
+"1046" [shape=box, style=filled, label="0
+(9/1)
+", weight=7]
+1025 -> 1046 [ label = "y"];
+"1047" [shape=box, style=filled, label="0
+(24/5)
+", weight=6]
+1022 -> 1047 [ label = "n"];
+"1048" [shape=box, style=filled, label="gillcolor
+Info: 0.59
+Entropy: 0.95
+Dominant class: [0 5]
+", weight=6]
+1022 -> 1048 [ label = "p"];
+"1049" [shape=box, style=filled, label="0
+(5/3)
+", weight=7]
+1048 -> 1049 [ label = "g"];
+"1050" [shape=box, style=filled, label="0
+(5/3)
+", weight=7]
+1048 -> 1050 [ label = "h"];
+"1051" [shape=box, style=filled, label="0
+(5/3)
+", weight=7]
+1048 -> 1051 [ label = "k"];
+"1052" [shape=box, style=filled, label="capshape
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=7]
+1048 -> 1052 [ label = "n"];
+"1053" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+1052 -> 1053 [ label = "b"];
+"1054" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+1052 -> 1054 [ label = "c"];
+"1055" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+1052 -> 1055 [ label = "f"];
+"1056" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+1052 -> 1056 [ label = "k"];
+"1057" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+1052 -> 1057 [ label = "s"];
+"1058" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+1052 -> 1058 [ label = "x"];
+"1059" [shape=box, style=filled, label="0
+(2)
+", weight=7]
+1048 -> 1059 [ label = "p"];
+"1060" [shape=box, style=filled, label="0
+(5/3)
+", weight=7]
+1048 -> 1060 [ label = "r"];
+"1061" [shape=box, style=filled, label="0
+(1)
+", weight=7]
+1048 -> 1061 [ label = "u"];
+"1062" [shape=box, style=filled, label="capsurface
+Info: 0.00
+Entropy: 0.92
+Dominant class: [1 2]
+", weight=7]
+1048 -> 1062 [ label = "w"];
+"1063" [shape=box, style=filled, label="1
+(2)
+", weight=8]
+1062 -> 1063 [ label = "f"];
+"1064" [shape=box, style=filled, label="1
+(2/1)
+", weight=8]
+1062 -> 1064 [ label = "g"];
+"1065" [shape=box, style=filled, label="1
+(2/1)
+", weight=8]
+1062 -> 1065 [ label = "s"];
+"1066" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+1062 -> 1066 [ label = "y"];
+"1067" [shape=box, style=filled, label="0
+(5/3)
+", weight=7]
+1048 -> 1067 [ label = "y"];
+"1068" [shape=box, style=filled, label="1
+(10/1)
+", weight=6]
+1022 -> 1068 [ label = "w"];
+"1069" [shape=box, style=filled, label="0
+(24/5)
+", weight=6]
+1022 -> 1069 [ label = "y"];
+"1070" [shape=box, style=filled, label="stalkcolorabovering
+Info: 0.16
+Entropy: 0.22
+Dominant class: [ 0 28]
+", weight=5]
+989 -> 1070 [ label = "w"];
+"1071" [shape=box, style=filled, label="0
+(28/1)
+", weight=6]
+1070 -> 1071 [ label = "b"];
+"1072" [shape=box, style=filled, label="0
+(28/1)
+", weight=6]
+1070 -> 1072 [ label = "c"];
+"1073" [shape=box, style=filled, label="gillcolor
+Info: 0.31
+Entropy: 0.50
+Dominant class: [0 8]
+", weight=6]
+1070 -> 1073 [ label = "g"];
+"1074" [shape=box, style=filled, label="0
+(8/1)
+", weight=7]
+1073 -> 1074 [ label = "g"];
+"1075" [shape=box, style=filled, label="0
+(8/1)
+", weight=7]
+1073 -> 1075 [ label = "h"];
+"1076" [shape=box, style=filled, label="0
+(8/1)
+", weight=7]
+1073 -> 1076 [ label = "k"];
+"1077" [shape=box, style=filled, label="0
+(3)
+", weight=7]
+1073 -> 1077 [ label = "n"];
+"1078" [shape=box, style=filled, label="0
+(2/1)
+", weight=7]
+1073 -> 1078 [ label = "p"];
+"1079" [shape=box, style=filled, label="0
+(8/1)
+", weight=7]
+1073 -> 1079 [ label = "r"];
+"1080" [shape=box, style=filled, label="0
+(8/1)
+", weight=7]
+1073 -> 1080 [ label = "u"];
+"1081" [shape=box, style=filled, label="0
+(3)
+", weight=7]
+1073 -> 1081 [ label = "w"];
+"1082" [shape=box, style=filled, label="0
+(8/1)
+", weight=7]
+1073 -> 1082 [ label = "y"];
+"1083" [shape=box, style=filled, label="0
+(28/1)
+", weight=6]
+1070 -> 1083 [ label = "n"];
+"1084" [shape=box, style=filled, label="0
+(10)
+", weight=6]
+1070 -> 1084 [ label = "p"];
+"1085" [shape=box, style=filled, label="0
+(10)
+", weight=6]
+1070 -> 1085 [ label = "w"];
+"1086" [shape=box, style=filled, label="0
+(28/1)
+", weight=6]
+1070 -> 1086 [ label = "y"];
+"1087" [shape=box, style=filled, label="0
+(78/8)
+", weight=5]
+989 -> 1087 [ label = "y"];
+"1088" [shape=box, style=filled, label="gillcolor
+Info: 0.50
+Entropy: 0.52
+Dominant class: [  0 120]
+", weight=4]
+986 -> 1088 [ label = "g"];
+"1089" [shape=box, style=filled, label="0
+(2)
+", weight=5]
+1088 -> 1089 [ label = "g"];
+"1090" [shape=box, style=filled, label="capshape
+Info: 0.35
+Entropy: 0.44
+Dominant class: [ 0 10]
+", weight=5]
+1088 -> 1090 [ label = "h"];
+"1091" [shape=box, style=filled, label="0
+(10/1)
+", weight=6]
+1090 -> 1091 [ label = "b"];
+"1092" [shape=box, style=filled, label="0
+(10/1)
+", weight=6]
+1090 -> 1092 [ label = "c"];
+"1093" [shape=box, style=filled, label="0
+(5)
+", weight=6]
+1090 -> 1093 [ label = "f"];
+"1094" [shape=box, style=filled, label="0
+(10/1)
+", weight=6]
+1090 -> 1094 [ label = "k"];
+"1095" [shape=box, style=filled, label="0
+(10/1)
+", weight=6]
+1090 -> 1095 [ label = "s"];
+"1096" [shape=box, style=filled, label="capsurface
+Info: 0.46
+Entropy: 0.65
+Dominant class: [0 5]
+", weight=6]
+1090 -> 1096 [ label = "x"];
+"1097" [shape=box, style=filled, label="stalksurfacebelowring
+Info: 0.67
+Entropy: 0.92
+Dominant class: [0 2]
+", weight=7]
+1096 -> 1097 [ label = "f"];
+"1098" [shape=box, style=filled, label="population
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=8]
+1097 -> 1098 [ label = "f"];
+"1099" [shape=box, style=filled, label="1
+(1)
+", weight=9]
+1098 -> 1099 [ label = "a"];
+"1100" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+1098 -> 1100 [ label = "c"];
+"1101" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+1098 -> 1101 [ label = "n"];
+"1102" [shape=box, style=filled, label="0
+(1)
+", weight=9]
+1098 -> 1102 [ label = "s"];
+"1103" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+1098 -> 1103 [ label = "v"];
+"1104" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+1098 -> 1104 [ label = "y"];
+"1105" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+1097 -> 1105 [ label = "k"];
+"1106" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+1097 -> 1106 [ label = "s"];
+"1107" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+1097 -> 1107 [ label = "y"];
+"1108" [shape=box, style=filled, label="0
+(5/1)
+", weight=7]
+1096 -> 1108 [ label = "g"];
+"1109" [shape=box, style=filled, label="0
+(3)
+", weight=7]
+1096 -> 1109 [ label = "s"];
+"1110" [shape=box, style=filled, label="0
+(5/1)
+", weight=7]
+1096 -> 1110 [ label = "y"];
+"1111" [shape=box, style=filled, label="0
+(7)
+", weight=5]
+1088 -> 1111 [ label = "k"];
+"1112" [shape=box, style=filled, label="population
+Info: 0.41
+Entropy: 0.53
+Dominant class: [ 0 29]
+", weight=5]
+1088 -> 1112 [ label = "n"];
+"1113" [shape=box, style=filled, label="0
+(5)
+", weight=6]
+1112 -> 1113 [ label = "a"];
+"1114" [shape=box, style=filled, label="0
+(29/4)
+", weight=6]
+1112 -> 1114 [ label = "c"];
+"1115" [shape=box, style=filled, label="0
+(29/4)
+", weight=6]
+1112 -> 1115 [ label = "n"];
+"1116" [shape=box, style=filled, label="0
+(2/2)
+", weight=6]
+1112 -> 1116 [ label = "s"];
+"1117" [shape=box, style=filled, label="stalkcolorbelowring
+Info: 0.18
+Entropy: 0.31
+Dominant class: [ 0 17]
+", weight=6]
+1112 -> 1117 [ label = "v"];
+"1118" [shape=box, style=filled, label="0
+(17/1)
+", weight=7]
+1117 -> 1118 [ label = "b"];
+"1119" [shape=box, style=filled, label="0
+(17/1)
+", weight=7]
+1117 -> 1119 [ label = "c"];
+"1120" [shape=box, style=filled, label="0
+(4)
+", weight=7]
+1117 -> 1120 [ label = "g"];
+"1121" [shape=box, style=filled, label="0
+(17/1)
+", weight=7]
+1117 -> 1121 [ label = "n"];
+"1122" [shape=box, style=filled, label="0
+(10)
+", weight=7]
+1117 -> 1122 [ label = "p"];
+"1123" [shape=box, style=filled, label="capsurface
+Info: 0.00
+Entropy: 0.81
+Dominant class: [0 3]
+", weight=7]
+1117 -> 1123 [ label = "w"];
+"1124" [shape=box, style=filled, label="0
+(3)
+", weight=8]
+1123 -> 1124 [ label = "f"];
+"1125" [shape=box, style=filled, label="0
+(3/1)
+", weight=8]
+1123 -> 1125 [ label = "g"];
+"1126" [shape=box, style=filled, label="0
+(3/1)
+", weight=8]
+1123 -> 1126 [ label = "s"];
+"1127" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+1123 -> 1127 [ label = "y"];
+"1128" [shape=box, style=filled, label="0
+(17/1)
+", weight=7]
+1117 -> 1128 [ label = "y"];
+"1129" [shape=box, style=filled, label="stalkcolorabovering
+Info: 0.33
+Entropy: 0.65
+Dominant class: [0 5]
+", weight=6]
+1112 -> 1129 [ label = "y"];
+"1130" [shape=box, style=filled, label="0
+(5/1)
+", weight=7]
+1129 -> 1130 [ label = "b"];
+"1131" [shape=box, style=filled, label="0
+(5/1)
+", weight=7]
+1129 -> 1131 [ label = "c"];
+"1132" [shape=box, style=filled, label="0
+(1/1)
+", weight=7]
+1129 -> 1132 [ label = "g"];
+"1133" [shape=box, style=filled, label="0
+(5/1)
+", weight=7]
+1129 -> 1133 [ label = "n"];
+"1134" [shape=box, style=filled, label="0
+(2)
+", weight=7]
+1129 -> 1134 [ label = "p"];
+"1135" [shape=box, style=filled, label="0
+(2)
+", weight=7]
+1129 -> 1135 [ label = "w"];
+"1136" [shape=box, style=filled, label="0
+(5/1)
+", weight=7]
+1129 -> 1136 [ label = "y"];
+"1137" [shape=box, style=filled, label="capshape
+Info: 0.31
+Entropy: 0.41
+Dominant class: [ 0 34]
+", weight=5]
+1088 -> 1137 [ label = "p"];
+"1138" [shape=box, style=filled, label="0
+(34/3)
+", weight=6]
+1137 -> 1138 [ label = "b"];
+"1139" [shape=box, style=filled, label="0
+(34/3)
+", weight=6]
+1137 -> 1139 [ label = "c"];
+"1140" [shape=box, style=filled, label="population
+Info: 0.50
+Entropy: 0.67
+Dominant class: [ 0 14]
+", weight=6]
+1137 -> 1140 [ label = "f"];
+"1141" [shape=box, style=filled, label="0
+(2)
+", weight=7]
+1140 -> 1141 [ label = "a"];
+"1142" [shape=box, style=filled, label="0
+(14/3)
+", weight=7]
+1140 -> 1142 [ label = "c"];
+"1143" [shape=box, style=filled, label="0
+(14/3)
+", weight=7]
+1140 -> 1143 [ label = "n"];
+"1144" [shape=box, style=filled, label="1
+(1/1)
+", weight=7]
+1140 -> 1144 [ label = "s"];
+"1145" [shape=box, style=filled, label="0
+(5)
+", weight=7]
+1140 -> 1145 [ label = "v"];
+"1146" [shape=box, style=filled, label="stalkcolorabovering
+Info: 0.70
+Entropy: 0.81
+Dominant class: [0 6]
+", weight=7]
+1140 -> 1146 [ label = "y"];
+"1147" [shape=box, style=filled, label="0
+(6/2)
+", weight=8]
+1146 -> 1147 [ label = "b"];
+"1148" [shape=box, style=filled, label="0
+(6/2)
+", weight=8]
+1146 -> 1148 [ label = "c"];
+"1149" [shape=box, style=filled, label="stalkcolorbelowring
+Info: 0.40
+Entropy: 0.72
+Dominant class: [0 4]
+", weight=8]
+1146 -> 1149 [ label = "g"];
+"1150" [shape=box, style=filled, label="0
+(4/1)
+", weight=9]
+1149 -> 1150 [ label = "b"];
+"1151" [shape=box, style=filled, label="0
+(4/1)
+", weight=9]
+1149 -> 1151 [ label = "c"];
+"1152" [shape=box, style=filled, label="0
+(1)
+", weight=9]
+1149 -> 1152 [ label = "g"];
+"1153" [shape=box, style=filled, label="0
+(4/1)
+", weight=9]
+1149 -> 1153 [ label = "n"];
+"1154" [shape=box, style=filled, label="0
+(2)
+", weight=9]
+1149 -> 1154 [ label = "p"];
+"1155" [shape=box, style=filled, label="capsurface
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=9]
+1149 -> 1155 [ label = "w"];
+"1156" [shape=box, style=filled, label="0
+(1)
+", weight=10]
+1155 -> 1156 [ label = "f"];
+"1157" [shape=box, style=filled, label="0
+(1/1)
+", weight=10]
+1155 -> 1157 [ label = "g"];
+"1158" [shape=box, style=filled, label="0
+(1/1)
+", weight=10]
+1155 -> 1158 [ label = "s"];
+"1159" [shape=box, style=filled, label="1
+(1)
+", weight=10]
+1155 -> 1159 [ label = "y"];
+"1160" [shape=box, style=filled, label="0
+(4/1)
+", weight=9]
+1149 -> 1160 [ label = "y"];
+"1161" [shape=box, style=filled, label="0
+(6/2)
+", weight=8]
+1146 -> 1161 [ label = "n"];
+"1162" [shape=box, style=filled, label="stalkcolorbelowring
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=8]
+1146 -> 1162 [ label = "p"];
+"1163" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+1162 -> 1163 [ label = "b"];
+"1164" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+1162 -> 1164 [ label = "c"];
+"1165" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+1162 -> 1165 [ label = "g"];
+"1166" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+1162 -> 1166 [ label = "n"];
+"1167" [shape=box, style=filled, label="1
+(1)
+", weight=9]
+1162 -> 1167 [ label = "p"];
+"1168" [shape=box, style=filled, label="0
+(1)
+", weight=9]
+1162 -> 1168 [ label = "w"];
+"1169" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+1162 -> 1169 [ label = "y"];
+"1170" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+1146 -> 1170 [ label = "w"];
+"1171" [shape=box, style=filled, label="0
+(6/2)
+", weight=8]
+1146 -> 1171 [ label = "y"];
+"1172" [shape=box, style=filled, label="0
+(34/3)
+", weight=6]
+1137 -> 1172 [ label = "k"];
+"1173" [shape=box, style=filled, label="0
+(1)
+", weight=6]
+1137 -> 1173 [ label = "s"];
+"1174" [shape=box, style=filled, label="0
+(19)
+", weight=6]
+1137 -> 1174 [ label = "x"];
+"1175" [shape=box, style=filled, label="0
+(120/16)
+", weight=5]
+1088 -> 1175 [ label = "r"];
+"1176" [shape=box, style=filled, label="stalkcolorabovering
+Info: 0.63
+Entropy: 0.72
+Dominant class: [ 0 20]
+", weight=5]
+1088 -> 1176 [ label = "u"];
+"1177" [shape=box, style=filled, label="0
+(20/5)
+", weight=6]
+1176 -> 1177 [ label = "b"];
+"1178" [shape=box, style=filled, label="0
+(20/5)
+", weight=6]
+1176 -> 1178 [ label = "c"];
+"1179" [shape=box, style=filled, label="0
+(5)
+", weight=6]
+1176 -> 1179 [ label = "g"];
+"1180" [shape=box, style=filled, label="0
+(20/5)
+", weight=6]
+1176 -> 1180 [ label = "n"];
+"1181" [shape=box, style=filled, label="stalkcolorbelowring
+Info: 0.53
+Entropy: 0.92
+Dominant class: [0 6]
+", weight=6]
+1176 -> 1181 [ label = "p"];
+"1182" [shape=box, style=filled, label="0
+(6/3)
+", weight=7]
+1181 -> 1182 [ label = "b"];
+"1183" [shape=box, style=filled, label="0
+(6/3)
+", weight=7]
+1181 -> 1183 [ label = "c"];
+"1184" [shape=box, style=filled, label="capshape
+Info: 0.00
+Entropy: 0.92
+Dominant class: [1 2]
+", weight=7]
+1181 -> 1184 [ label = "g"];
+"1185" [shape=box, style=filled, label="1
+(2/1)
+", weight=8]
+1184 -> 1185 [ label = "b"];
+"1186" [shape=box, style=filled, label="1
+(2/1)
+", weight=8]
+1184 -> 1186 [ label = "c"];
+"1187" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+1184 -> 1187 [ label = "f"];
+"1188" [shape=box, style=filled, label="1
+(2/1)
+", weight=8]
+1184 -> 1188 [ label = "k"];
+"1189" [shape=box, style=filled, label="1
+(2/1)
+", weight=8]
+1184 -> 1189 [ label = "s"];
+"1190" [shape=box, style=filled, label="1
+(2)
+", weight=8]
+1184 -> 1190 [ label = "x"];
+"1191" [shape=box, style=filled, label="0
+(6/3)
+", weight=7]
+1181 -> 1191 [ label = "n"];
+"1192" [shape=box, style=filled, label="0
+(4)
+", weight=7]
+1181 -> 1192 [ label = "p"];
+"1193" [shape=box, style=filled, label="population
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=7]
+1181 -> 1193 [ label = "w"];
+"1194" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+1193 -> 1194 [ label = "a"];
+"1195" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+1193 -> 1195 [ label = "c"];
+"1196" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+1193 -> 1196 [ label = "n"];
+"1197" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+1193 -> 1197 [ label = "s"];
+"1198" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+1193 -> 1198 [ label = "v"];
+"1199" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+1193 -> 1199 [ label = "y"];
+"1200" [shape=box, style=filled, label="0
+(6/3)
+", weight=7]
+1181 -> 1200 [ label = "y"];
+"1201" [shape=box, style=filled, label="capshape
+Info: 0.44
+Entropy: 0.68
+Dominant class: [0 9]
+", weight=6]
+1176 -> 1201 [ label = "w"];
+"1202" [shape=box, style=filled, label="0
+(9/2)
+", weight=7]
+1201 -> 1202 [ label = "b"];
+"1203" [shape=box, style=filled, label="0
+(9/2)
+", weight=7]
+1201 -> 1203 [ label = "c"];
+"1204" [shape=box, style=filled, label="stalkcolorbelowring
+Info: 0.00
+Entropy: 0.97
+Dominant class: [0 3]
+", weight=7]
+1201 -> 1204 [ label = "f"];
+"1205" [shape=box, style=filled, label="0
+(3/2)
+", weight=8]
+1204 -> 1205 [ label = "b"];
+"1206" [shape=box, style=filled, label="0
+(3/2)
+", weight=8]
+1204 -> 1206 [ label = "c"];
+"1207" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+1204 -> 1207 [ label = "g"];
+"1208" [shape=box, style=filled, label="0
+(3/2)
+", weight=8]
+1204 -> 1208 [ label = "n"];
+"1209" [shape=box, style=filled, label="1
+(2)
+", weight=8]
+1204 -> 1209 [ label = "p"];
+"1210" [shape=box, style=filled, label="0
+(2)
+", weight=8]
+1204 -> 1210 [ label = "w"];
+"1211" [shape=box, style=filled, label="0
+(3/2)
+", weight=8]
+1204 -> 1211 [ label = "y"];
+"1212" [shape=box, style=filled, label="0
+(9/2)
+", weight=7]
+1201 -> 1212 [ label = "k"];
+"1213" [shape=box, style=filled, label="0
+(9/2)
+", weight=7]
+1201 -> 1213 [ label = "s"];
+"1214" [shape=box, style=filled, label="0
+(6)
+", weight=7]
+1201 -> 1214 [ label = "x"];
+"1215" [shape=box, style=filled, label="0
+(20/5)
+", weight=6]
+1176 -> 1215 [ label = "y"];
+"1216" [shape=box, style=filled, label="capsurface
+Info: 0.46
+Entropy: 0.59
+Dominant class: [ 0 18]
+", weight=5]
+1088 -> 1216 [ label = "w"];
+"1217" [shape=box, style=filled, label="0
+(9)
+", weight=6]
+1216 -> 1217 [ label = "f"];
+"1218" [shape=box, style=filled, label="0
+(18/3)
+", weight=6]
+1216 -> 1218 [ label = "g"];
+"1219" [shape=box, style=filled, label="0
+(18/3)
+", weight=6]
+1216 -> 1219 [ label = "s"];
+"1220" [shape=box, style=filled, label="stalkcolorbelowring
+Info: 0.60
+Entropy: 0.81
+Dominant class: [0 9]
+", weight=6]
+1216 -> 1220 [ label = "y"];
+"1221" [shape=box, style=filled, label="0
+(9/3)
+", weight=7]
+1220 -> 1221 [ label = "b"];
+"1222" [shape=box, style=filled, label="0
+(9/3)
+", weight=7]
+1220 -> 1222 [ label = "c"];
+"1223" [shape=box, style=filled, label="population
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 2]
+", weight=7]
+1220 -> 1223 [ label = "g"];
+"1224" [shape=box, style=filled, label="0
+(2/2)
+", weight=8]
+1223 -> 1224 [ label = "a"];
+"1225" [shape=box, style=filled, label="0
+(2/2)
+", weight=8]
+1223 -> 1225 [ label = "c"];
+"1226" [shape=box, style=filled, label="0
+(2/2)
+", weight=8]
+1223 -> 1226 [ label = "n"];
+"1227" [shape=box, style=filled, label="0
+(2/2)
+", weight=8]
+1223 -> 1227 [ label = "s"];
+"1228" [shape=box, style=filled, label="0
+(2)
+", weight=8]
+1223 -> 1228 [ label = "v"];
+"1229" [shape=box, style=filled, label="1
+(2)
+", weight=8]
+1223 -> 1229 [ label = "y"];
+"1230" [shape=box, style=filled, label="0
+(9/3)
+", weight=7]
+1220 -> 1230 [ label = "n"];
+"1231" [shape=box, style=filled, label="0
+(4)
+", weight=7]
+1220 -> 1231 [ label = "p"];
+"1232" [shape=box, style=filled, label="0
+(3/1)
+", weight=7]
+1220 -> 1232 [ label = "w"];
+"1233" [shape=box, style=filled, label="0
+(9/3)
+", weight=7]
+1220 -> 1233 [ label = "y"];
+"1234" [shape=box, style=filled, label="0
+(120/16)
+", weight=5]
+1088 -> 1234 [ label = "y"];
+"1235" [shape=box, style=filled, label="stalkcolorbelowring
+Info: 0.30
+Entropy: 0.34
+Dominant class: [  0 118]
+", weight=4]
+986 -> 1235 [ label = "n"];
+"1236" [shape=box, style=filled, label="0
+(118/8)
+", weight=5]
+1235 -> 1236 [ label = "b"];
+"1237" [shape=box, style=filled, label="0
+(118/8)
+", weight=5]
+1235 -> 1237 [ label = "c"];
+"1238" [shape=box, style=filled, label="population
+Info: 0.46
+Entropy: 0.62
+Dominant class: [ 0 22]
+", weight=5]
+1235 -> 1238 [ label = "g"];
+"1239" [shape=box, style=filled, label="0
+(22/4)
+", weight=6]
+1238 -> 1239 [ label = "a"];
+"1240" [shape=box, style=filled, label="0
+(22/4)
+", weight=6]
+1238 -> 1240 [ label = "c"];
+"1241" [shape=box, style=filled, label="0
+(22/4)
+", weight=6]
+1238 -> 1241 [ label = "n"];
+"1242" [shape=box, style=filled, label="0
+(22/4)
+", weight=6]
+1238 -> 1242 [ label = "s"];
+"1243" [shape=box, style=filled, label="0
+(12)
+", weight=6]
+1238 -> 1243 [ label = "v"];
+"1244" [shape=box, style=filled, label="gillcolor
+Info: 0.71
+Entropy: 0.86
+Dominant class: [ 0 10]
+", weight=6]
+1238 -> 1244 [ label = "y"];
+"1245" [shape=box, style=filled, label="0
+(10/4)
+", weight=7]
+1244 -> 1245 [ label = "g"];
+"1246" [shape=box, style=filled, label="0
+(10/4)
+", weight=7]
+1244 -> 1246 [ label = "h"];
+"1247" [shape=box, style=filled, label="0
+(10/4)
+", weight=7]
+1244 -> 1247 [ label = "k"];
+"1248" [shape=box, style=filled, label="0
+(2/2)
+", weight=7]
+1244 -> 1248 [ label = "n"];
+"1249" [shape=box, style=filled, label="stalkcolorabovering
+Info: 0.00
+Entropy: 0.92
+Dominant class: [0 2]
+", weight=7]
+1244 -> 1249 [ label = "p"];
+"1250" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+1249 -> 1250 [ label = "b"];
+"1251" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+1249 -> 1251 [ label = "c"];
+"1252" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+1249 -> 1252 [ label = "g"];
+"1253" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+1249 -> 1253 [ label = "n"];
+"1254" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+1249 -> 1254 [ label = "p"];
+"1255" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+1249 -> 1255 [ label = "w"];
+"1256" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+1249 -> 1256 [ label = "y"];
+"1257" [shape=box, style=filled, label="0
+(10/4)
+", weight=7]
+1244 -> 1257 [ label = "r"];
+"1258" [shape=box, style=filled, label="stalkcolorabovering
+Info: 0.00
+Entropy: 0.81
+Dominant class: [0 3]
+", weight=7]
+1244 -> 1258 [ label = "u"];
+"1259" [shape=box, style=filled, label="0
+(3/1)
+", weight=8]
+1258 -> 1259 [ label = "b"];
+"1260" [shape=box, style=filled, label="0
+(3/1)
+", weight=8]
+1258 -> 1260 [ label = "c"];
+"1261" [shape=box, style=filled, label="0
+(2)
+", weight=8]
+1258 -> 1261 [ label = "g"];
+"1262" [shape=box, style=filled, label="0
+(3/1)
+", weight=8]
+1258 -> 1262 [ label = "n"];
+"1263" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+1258 -> 1263 [ label = "p"];
+"1264" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+1258 -> 1264 [ label = "w"];
+"1265" [shape=box, style=filled, label="0
+(3/1)
+", weight=8]
+1258 -> 1265 [ label = "y"];
+"1266" [shape=box, style=filled, label="0
+(3)
+", weight=7]
+1244 -> 1266 [ label = "w"];
+"1267" [shape=box, style=filled, label="0
+(10/4)
+", weight=7]
+1244 -> 1267 [ label = "y"];
+"1268" [shape=box, style=filled, label="0
+(118/8)
+", weight=5]
+1235 -> 1268 [ label = "n"];
+"1269" [shape=box, style=filled, label="0
+(29)
+", weight=5]
+1235 -> 1269 [ label = "p"];
+"1270" [shape=box, style=filled, label="population
+Info: 0.26
+Entropy: 0.31
+Dominant class: [ 0 67]
+", weight=5]
+1235 -> 1270 [ label = "w"];
+"1271" [shape=box, style=filled, label="gillcolor
+Info: 0.40
+Entropy: 0.50
+Dominant class: [ 0 16]
+", weight=6]
+1270 -> 1271 [ label = "a"];
+"1272" [shape=box, style=filled, label="0
+(16/2)
+", weight=7]
+1271 -> 1272 [ label = "g"];
+"1273" [shape=box, style=filled, label="0
+(4/1)
+", weight=7]
+1271 -> 1273 [ label = "h"];
+"1274" [shape=box, style=filled, label="0
+(3)
+", weight=7]
+1271 -> 1274 [ label = "k"];
+"1275" [shape=box, style=filled, label="stalksurfaceabovering
+Info: 0.40
+Entropy: 0.72
+Dominant class: [0 4]
+", weight=7]
+1271 -> 1275 [ label = "n"];
+"1276" [shape=box, style=filled, label="stalksurfacebelowring
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=8]
+1275 -> 1276 [ label = "f"];
+"1277" [shape=box, style=filled, label="0
+(1)
+", weight=9]
+1276 -> 1277 [ label = "f"];
+"1278" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+1276 -> 1278 [ label = "k"];
+"1279" [shape=box, style=filled, label="1
+(1)
+", weight=9]
+1276 -> 1279 [ label = "s"];
+"1280" [shape=box, style=filled, label="0
+(1/1)
+", weight=9]
+1276 -> 1280 [ label = "y"];
+"1281" [shape=box, style=filled, label="0
+(4/1)
+", weight=8]
+1275 -> 1281 [ label = "k"];
+"1282" [shape=box, style=filled, label="0
+(3)
+", weight=8]
+1275 -> 1282 [ label = "s"];
+"1283" [shape=box, style=filled, label="0
+(4/1)
+", weight=8]
+1275 -> 1283 [ label = "y"];
+"1284" [shape=box, style=filled, label="0
+(5)
+", weight=7]
+1271 -> 1284 [ label = "p"];
+"1285" [shape=box, style=filled, label="0
+(16/2)
+", weight=7]
+1271 -> 1285 [ label = "r"];
+"1286" [shape=box, style=filled, label="0
+(16/2)
+", weight=7]
+1271 -> 1286 [ label = "u"];
+"1287" [shape=box, style=filled, label="0
+(16/2)
+", weight=7]
+1271 -> 1287 [ label = "w"];
+"1288" [shape=box, style=filled, label="0
+(16/2)
+", weight=7]
+1271 -> 1288 [ label = "y"];
+"1289" [shape=box, style=filled, label="0
+(67/4)
+", weight=6]
+1270 -> 1289 [ label = "c"];
+"1290" [shape=box, style=filled, label="0
+(67/4)
+", weight=6]
+1270 -> 1290 [ label = "n"];
+"1291" [shape=box, style=filled, label="0
+(18)
+", weight=6]
+1270 -> 1291 [ label = "s"];
+"1292" [shape=box, style=filled, label="gillcolor
+Info: 0.30
+Entropy: 0.44
+Dominant class: [ 0 20]
+", weight=6]
+1270 -> 1292 [ label = "v"];
+"1293" [shape=box, style=filled, label="0
+(2)
+", weight=7]
+1292 -> 1293 [ label = "g"];
+"1294" [shape=box, style=filled, label="0
+(20/2)
+", weight=7]
+1292 -> 1294 [ label = "h"];
+"1295" [shape=box, style=filled, label="0
+(1)
+", weight=7]
+1292 -> 1295 [ label = "k"];
+"1296" [shape=box, style=filled, label="0
+(5)
+", weight=7]
+1292 -> 1296 [ label = "n"];
+"1297" [shape=box, style=filled, label="stalkcolorabovering
+Info: 0.61
+Entropy: 0.81
+Dominant class: [0 6]
+", weight=7]
+1292 -> 1297 [ label = "p"];
+"1298" [shape=box, style=filled, label="0
+(6/2)
+", weight=8]
+1297 -> 1298 [ label = "b"];
+"1299" [shape=box, style=filled, label="0
+(6/2)
+", weight=8]
+1297 -> 1299 [ label = "c"];
+"1300" [shape=box, style=filled, label="0
+(2)
+", weight=8]
+1297 -> 1300 [ label = "g"];
+"1301" [shape=box, style=filled, label="0
+(6/2)
+", weight=8]
+1297 -> 1301 [ label = "n"];
+"1302" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+1297 -> 1302 [ label = "p"];
+"1303" [shape=box, style=filled, label="capshape
+Info: 0.55
+Entropy: 0.97
+Dominant class: [0 3]
+", weight=8]
+1297 -> 1303 [ label = "w"];
+"1304" [shape=box, style=filled, label="0
+(3/2)
+", weight=9]
+1303 -> 1304 [ label = "b"];
+"1305" [shape=box, style=filled, label="0
+(3/2)
+", weight=9]
+1303 -> 1305 [ label = "c"];
+"1306" [shape=box, style=filled, label="1
+(1)
+", weight=9]
+1303 -> 1306 [ label = "f"];
+"1307" [shape=box, style=filled, label="0
+(3/2)
+", weight=9]
+1303 -> 1307 [ label = "k"];
+"1308" [shape=box, style=filled, label="0
+(1)
+", weight=9]
+1303 -> 1308 [ label = "s"];
+"1309" [shape=box, style=filled, label="capsurface
+Info: 0.67
+Entropy: 0.92
+Dominant class: [0 2]
+", weight=9]
+1303 -> 1309 [ label = "x"];
+"1310" [shape=box, style=filled, label="bruises?
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=10]
+1309 -> 1310 [ label = "f"];
+"1311" [shape=box, style=filled, label="0
+(1)
+", weight=11]
+1310 -> 1311 [ label = "f"];
+"1312" [shape=box, style=filled, label="1
+(1)
+", weight=11]
+1310 -> 1312 [ label = "t"];
+"1313" [shape=box, style=filled, label="0
+(2/1)
+", weight=10]
+1309 -> 1313 [ label = "g"];
+"1314" [shape=box, style=filled, label="0
+(2/1)
+", weight=10]
+1309 -> 1314 [ label = "s"];
+"1315" [shape=box, style=filled, label="0
+(1)
+", weight=10]
+1309 -> 1315 [ label = "y"];
+"1316" [shape=box, style=filled, label="0
+(6/2)
+", weight=8]
+1297 -> 1316 [ label = "y"];
+"1317" [shape=box, style=filled, label="0
+(20/2)
+", weight=7]
+1292 -> 1317 [ label = "r"];
+"1318" [shape=box, style=filled, label="0
+(4)
+", weight=7]
+1292 -> 1318 [ label = "u"];
+"1319" [shape=box, style=filled, label="0
+(2)
+", weight=7]
+1292 -> 1319 [ label = "w"];
+"1320" [shape=box, style=filled, label="0
+(20/2)
+", weight=7]
+1292 -> 1320 [ label = "y"];
+"1321" [shape=box, style=filled, label="0
+(13)
+", weight=6]
+1270 -> 1321 [ label = "y"];
+"1322" [shape=box, style=filled, label="0
+(118/8)
+", weight=5]
+1235 -> 1322 [ label = "y"];
+"1323" [shape=box, style=filled, label="0
+(354/33)
+", weight=4]
+986 -> 1323 [ label = "p"];
+"1324" [shape=box, style=filled, label="gillcolor
+Info: 0.13
+Entropy: 0.17
+Dominant class: [ 0 38]
+", weight=4]
+986 -> 1324 [ label = "w"];
+"1325" [shape=box, style=filled, label="0
+(38/1)
+", weight=5]
+1324 -> 1325 [ label = "g"];
+"1326" [shape=box, style=filled, label="0
+(6)
+", weight=5]
+1324 -> 1326 [ label = "h"];
+"1327" [shape=box, style=filled, label="capshape
+Info: 0.30
+Entropy: 0.41
+Dominant class: [ 0 11]
+", weight=5]
+1324 -> 1327 [ label = "k"];
+"1328" [shape=box, style=filled, label="0
+(11/1)
+", weight=6]
+1327 -> 1328 [ label = "b"];
+"1329" [shape=box, style=filled, label="0
+(11/1)
+", weight=6]
+1327 -> 1329 [ label = "c"];
+"1330" [shape=box, style=filled, label="0
+(7)
+", weight=6]
+1327 -> 1330 [ label = "f"];
+"1331" [shape=box, style=filled, label="0
+(11/1)
+", weight=6]
+1327 -> 1331 [ label = "k"];
+"1332" [shape=box, style=filled, label="0
+(11/1)
+", weight=6]
+1327 -> 1332 [ label = "s"];
+"1333" [shape=box, style=filled, label="stalksurfacebelowring
+Info: 0.55
+Entropy: 0.72
+Dominant class: [0 4]
+", weight=6]
+1327 -> 1333 [ label = "x"];
+"1334" [shape=box, style=filled, label="0
+(2)
+", weight=7]
+1333 -> 1334 [ label = "f"];
+"1335" [shape=box, style=filled, label="0
+(4/1)
+", weight=7]
+1333 -> 1335 [ label = "k"];
+"1336" [shape=box, style=filled, label="capsurface
+Info: 0.67
+Entropy: 0.92
+Dominant class: [0 2]
+", weight=7]
+1333 -> 1336 [ label = "s"];
+"1337" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+1336 -> 1337 [ label = "f"];
+"1338" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+1336 -> 1338 [ label = "g"];
+"1339" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+1336 -> 1339 [ label = "s"];
+"1340" [shape=box, style=filled, label="0
+(2/1)
+", weight=8]
+1336 -> 1340 [ label = "y"];
+"1341" [shape=box, style=filled, label="0
+(4/1)
+", weight=7]
+1333 -> 1341 [ label = "y"];
+"1342" [shape=box, style=filled, label="0
+(11)
+", weight=5]
+1324 -> 1342 [ label = "n"];
+"1343" [shape=box, style=filled, label="0
+(10)
+", weight=5]
+1324 -> 1343 [ label = "p"];
+"1344" [shape=box, style=filled, label="0
+(38/1)
+", weight=5]
+1324 -> 1344 [ label = "r"];
+"1345" [shape=box, style=filled, label="0
+(38/1)
+", weight=5]
+1324 -> 1345 [ label = "u"];
+"1346" [shape=box, style=filled, label="0
+(38/1)
+", weight=5]
+1324 -> 1346 [ label = "w"];
+"1347" [shape=box, style=filled, label="0
+(38/1)
+", weight=5]
+1324 -> 1347 [ label = "y"];
+"1348" [shape=box, style=filled, label="0
+(354/33)
+", weight=4]
+986 -> 1348 [ label = "y"];
+"1349" [shape=box, style=filled, label="gillcolor
+Info: 0.60
+Entropy: 0.74
+Dominant class: [ 1 15]
+", weight=3]
+603 -> 1349 [ label = "r"];
+"1350" [shape=box, style=filled, label="1
+(6)
+", weight=4]
+1349 -> 1350 [ label = "g"];
+"1351" [shape=box, style=filled, label="1
+(15/4)
+", weight=4]
+1349 -> 1351 [ label = "h"];
+"1352" [shape=box, style=filled, label="1
+(15/4)
+", weight=4]
+1349 -> 1352 [ label = "k"];
+"1353" [shape=box, style=filled, label="1
+(15/4)
+", weight=4]
+1349 -> 1353 [ label = "n"];
+"1354" [shape=box, style=filled, label="1
+(15/4)
+", weight=4]
+1349 -> 1354 [ label = "p"];
+"1355" [shape=box, style=filled, label="capcolor
+Info: 0.59
+Entropy: 0.81
+Dominant class: [1 6]
+", weight=4]
+1349 -> 1355 [ label = "r"];
+"1356" [shape=box, style=filled, label="1
+(3)
+", weight=5]
+1355 -> 1356 [ label = "b"];
+"1357" [shape=box, style=filled, label="1
+(6/2)
+", weight=5]
+1355 -> 1357 [ label = "c"];
+"1358" [shape=box, style=filled, label="1
+(6/2)
+", weight=5]
+1355 -> 1358 [ label = "e"];
+"1359" [shape=box, style=filled, label="1
+(6/2)
+", weight=5]
+1355 -> 1359 [ label = "g"];
+"1360" [shape=box, style=filled, label="1
+(6/2)
+", weight=5]
+1355 -> 1360 [ label = "n"];
+"1361" [shape=box, style=filled, label="1
+(1/1)
+", weight=5]
+1355 -> 1361 [ label = "p"];
+"1362" [shape=box, style=filled, label="1
+(2/1)
+", weight=5]
+1355 -> 1362 [ label = "w"];
+"1363" [shape=box, style=filled, label="1
+(6/2)
+", weight=5]
+1355 -> 1363 [ label = "y"];
+"1364" [shape=box, style=filled, label="1
+(15/4)
+", weight=4]
+1349 -> 1364 [ label = "u"];
+"1365" [shape=box, style=filled, label="1
+(3/2)
+", weight=4]
+1349 -> 1365 [ label = "w"];
+"1366" [shape=box, style=filled, label="1
+(15/4)
+", weight=4]
+1349 -> 1366 [ label = "y"];
+"1367" [shape=box, style=filled, label="0
+(680/99)
+", weight=3]
+603 -> 1367 [ label = "u"];
+"1368" [shape=box, style=filled, label="capcolor
+Info: 0.23
+Entropy: 1.00
+Dominant class: [ 1 11]
+", weight=3]
+603 -> 1368 [ label = "w"];
+"1369" [shape=box, style=filled, label="1
+(11/10)
+", weight=4]
+1368 -> 1369 [ label = "b"];
+"1370" [shape=box, style=filled, label="0
+(2)
+", weight=4]
+1368 -> 1370 [ label = "c"];
+"1371" [shape=box, style=filled, label="1
+(11/10)
+", weight=4]
+1368 -> 1371 [ label = "e"];
+"1372" [shape=box, style=filled, label="capsurface
+Info: 0.00
+Entropy: 0.92
+Dominant class: [0 2]
+", weight=4]
+1368 -> 1372 [ label = "g"];
+"1373" [shape=box, style=filled, label="0
+(2/1)
+", weight=5]
+1372 -> 1373 [ label = "f"];
+"1374" [shape=box, style=filled, label="0
+(2/1)
+", weight=5]
+1372 -> 1374 [ label = "g"];
+"1375" [shape=box, style=filled, label="0
+(2)
+", weight=5]
+1372 -> 1375 [ label = "s"];
+"1376" [shape=box, style=filled, label="1
+(1)
+", weight=5]
+1372 -> 1376 [ label = "y"];
+"1377" [shape=box, style=filled, label="0
+(5)
+", weight=4]
+1368 -> 1377 [ label = "n"];
+"1378" [shape=box, style=filled, label="1
+(1/1)
+", weight=4]
+1368 -> 1378 [ label = "p"];
+"1379" [shape=box, style=filled, label="1
+(4)
+", weight=4]
+1368 -> 1379 [ label = "w"];
+"1380" [shape=box, style=filled, label="1
+(5)
+", weight=4]
+1368 -> 1380 [ label = "y"];
+"1381" [shape=box, style=filled, label="gillcolor
+Info: 0.52
+Entropy: 0.54
+Dominant class: [ 1 64]
+", weight=2]
+0 -> 1381 [ label = "p"];
+"1382" [shape=box, style=filled, label="1
+(64/9)
+", weight=3]
+1381 -> 1382 [ label = "g"];
+"1383" [shape=box, style=filled, label="1
+(64/9)
+", weight=3]
+1381 -> 1383 [ label = "h"];
+"1384" [shape=box, style=filled, label="capsurface
+Info: 0.44
+Entropy: 0.59
+Dominant class: [ 1 18]
+", weight=3]
+1381 -> 1384 [ label = "k"];
+"1385" [shape=box, style=filled, label="1
+(18/3)
+", weight=4]
+1384 -> 1385 [ label = "f"];
+"1386" [shape=box, style=filled, label="1
+(18/3)
+", weight=4]
+1384 -> 1386 [ label = "g"];
+"1387" [shape=box, style=filled, label="sporeprintcolor
+Info: 0.81
+Entropy: 0.85
+Dominant class: [1 8]
+", weight=4]
+1384 -> 1387 [ label = "s"];
+"1388" [shape=box, style=filled, label="1
+(8/3)
+", weight=5]
+1387 -> 1388 [ label = "h"];
+"1389" [shape=box, style=filled, label="habitat
+Info: 0.54
+Entropy: 0.76
+Dominant class: [1 7]
+", weight=5]
+1387 -> 1389 [ label = "k"];
+"1390" [shape=box, style=filled, label="1
+(7/2)
+", weight=6]
+1389 -> 1390 [ label = "d"];
+"1391" [shape=box, style=filled, label="capshape
+Info: 0.95
+Entropy: 0.97
+Dominant class: [1 3]
+", weight=6]
+1389 -> 1391 [ label = "g"];
+"1392" [shape=box, style=filled, label="1
+(3/2)
+", weight=7]
+1391 -> 1392 [ label = "b"];
+"1393" [shape=box, style=filled, label="1
+(3/2)
+", weight=7]
+1391 -> 1393 [ label = "c"];
+"1394" [shape=box, style=filled, label="1
+(2/1)
+", weight=7]
+1391 -> 1394 [ label = "f"];
+"1395" [shape=box, style=filled, label="1
+(3/2)
+", weight=7]
+1391 -> 1395 [ label = "k"];
+"1396" [shape=box, style=filled, label="1
+(3/2)
+", weight=7]
+1391 -> 1396 [ label = "s"];
+"1397" [shape=box, style=filled, label="population
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=7]
+1391 -> 1397 [ label = "x"];
+"1398" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+1397 -> 1398 [ label = "a"];
+"1399" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+1397 -> 1399 [ label = "c"];
+"1400" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+1397 -> 1400 [ label = "n"];
+"1401" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+1397 -> 1401 [ label = "s"];
+"1402" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+1397 -> 1402 [ label = "v"];
+"1403" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+1397 -> 1403 [ label = "y"];
+"1404" [shape=box, style=filled, label="1
+(7/2)
+", weight=6]
+1389 -> 1404 [ label = "l"];
+"1405" [shape=box, style=filled, label="1
+(7/2)
+", weight=6]
+1389 -> 1405 [ label = "m"];
+"1406" [shape=box, style=filled, label="1
+(7/2)
+", weight=6]
+1389 -> 1406 [ label = "p"];
+"1407" [shape=box, style=filled, label="1
+(4)
+", weight=6]
+1389 -> 1407 [ label = "u"];
+"1408" [shape=box, style=filled, label="capshape
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=5]
+1387 -> 1408 [ label = "n"];
+"1409" [shape=box, style=filled, label="0
+(1/1)
+", weight=6]
+1408 -> 1409 [ label = "b"];
+"1410" [shape=box, style=filled, label="0
+(1/1)
+", weight=6]
+1408 -> 1410 [ label = "c"];
+"1411" [shape=box, style=filled, label="0
+(1)
+", weight=6]
+1408 -> 1411 [ label = "f"];
+"1412" [shape=box, style=filled, label="0
+(1/1)
+", weight=6]
+1408 -> 1412 [ label = "k"];
+"1413" [shape=box, style=filled, label="0
+(1/1)
+", weight=6]
+1408 -> 1413 [ label = "s"];
+"1414" [shape=box, style=filled, label="1
+(1)
+", weight=6]
+1408 -> 1414 [ label = "x"];
+"1415" [shape=box, style=filled, label="1
+(8/3)
+", weight=5]
+1387 -> 1415 [ label = "r"];
+"1416" [shape=box, style=filled, label="1
+(8/3)
+", weight=5]
+1387 -> 1416 [ label = "u"];
+"1417" [shape=box, style=filled, label="1
+(8/3)
+", weight=5]
+1387 -> 1417 [ label = "w"];
+"1418" [shape=box, style=filled, label="1
+(10)
+", weight=4]
+1384 -> 1418 [ label = "y"];
+"1419" [shape=box, style=filled, label="sporeprintcolor
+Info: 0.20
+Entropy: 0.34
+Dominant class: [ 1 15]
+", weight=3]
+1381 -> 1419 [ label = "n"];
+"1420" [shape=box, style=filled, label="1
+(15/1)
+", weight=4]
+1419 -> 1420 [ label = "h"];
+"1421" [shape=box, style=filled, label="1
+(12)
+", weight=4]
+1419 -> 1421 [ label = "k"];
+"1422" [shape=box, style=filled, label="1
+(3/1)
+", weight=4]
+1419 -> 1422 [ label = "n"];
+"1423" [shape=box, style=filled, label="1
+(15/1)
+", weight=4]
+1419 -> 1423 [ label = "r"];
+"1424" [shape=box, style=filled, label="1
+(15/1)
+", weight=4]
+1419 -> 1424 [ label = "u"];
+"1425" [shape=box, style=filled, label="1
+(15/1)
+", weight=4]
+1419 -> 1425 [ label = "w"];
+"1426" [shape=box, style=filled, label="capsurface
+Info: 0.26
+Entropy: 0.34
+Dominant class: [ 1 15]
+", weight=3]
+1381 -> 1426 [ label = "p"];
+"1427" [shape=box, style=filled, label="1
+(15/1)
+", weight=4]
+1426 -> 1427 [ label = "f"];
+"1428" [shape=box, style=filled, label="1
+(15/1)
+", weight=4]
+1426 -> 1428 [ label = "g"];
+"1429" [shape=box, style=filled, label="1
+(9)
+", weight=4]
+1426 -> 1429 [ label = "s"];
+"1430" [shape=box, style=filled, label="habitat
+Info: 0.39
+Entropy: 0.59
+Dominant class: [1 6]
+", weight=4]
+1426 -> 1430 [ label = "y"];
+"1431" [shape=box, style=filled, label="1
+(6/1)
+", weight=5]
+1430 -> 1431 [ label = "d"];
+"1432" [shape=box, style=filled, label="capshape
+Info: 0.67
+Entropy: 0.92
+Dominant class: [1 2]
+", weight=5]
+1430 -> 1432 [ label = "g"];
+"1433" [shape=box, style=filled, label="1
+(2/1)
+", weight=6]
+1432 -> 1433 [ label = "b"];
+"1434" [shape=box, style=filled, label="1
+(2/1)
+", weight=6]
+1432 -> 1434 [ label = "c"];
+"1435" [shape=box, style=filled, label="sporeprintcolor
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=6]
+1432 -> 1435 [ label = "f"];
+"1436" [shape=box, style=filled, label="0
+(1/1)
+", weight=7]
+1435 -> 1436 [ label = "h"];
+"1437" [shape=box, style=filled, label="0
+(1)
+", weight=7]
+1435 -> 1437 [ label = "k"];
+"1438" [shape=box, style=filled, label="1
+(1)
+", weight=7]
+1435 -> 1438 [ label = "n"];
+"1439" [shape=box, style=filled, label="0
+(1/1)
+", weight=7]
+1435 -> 1439 [ label = "r"];
+"1440" [shape=box, style=filled, label="0
+(1/1)
+", weight=7]
+1435 -> 1440 [ label = "u"];
+"1441" [shape=box, style=filled, label="0
+(1/1)
+", weight=7]
+1435 -> 1441 [ label = "w"];
+"1442" [shape=box, style=filled, label="1
+(2/1)
+", weight=6]
+1432 -> 1442 [ label = "k"];
+"1443" [shape=box, style=filled, label="1
+(2/1)
+", weight=6]
+1432 -> 1443 [ label = "s"];
+"1444" [shape=box, style=filled, label="1
+(1)
+", weight=6]
+1432 -> 1444 [ label = "x"];
+"1445" [shape=box, style=filled, label="1
+(6/1)
+", weight=5]
+1430 -> 1445 [ label = "l"];
+"1446" [shape=box, style=filled, label="1
+(6/1)
+", weight=5]
+1430 -> 1446 [ label = "m"];
+"1447" [shape=box, style=filled, label="1
+(6/1)
+", weight=5]
+1430 -> 1447 [ label = "p"];
+"1448" [shape=box, style=filled, label="1
+(4)
+", weight=5]
+1430 -> 1448 [ label = "u"];
+"1449" [shape=box, style=filled, label="1
+(64/9)
+", weight=3]
+1381 -> 1449 [ label = "r"];
+"1450" [shape=box, style=filled, label="1
+(64/9)
+", weight=3]
+1381 -> 1450 [ label = "u"];
+"1451" [shape=box, style=filled, label="sporeprintcolor
+Info: 0.55
+Entropy: 0.72
+Dominant class: [ 1 16]
+", weight=3]
+1381 -> 1451 [ label = "w"];
+"1452" [shape=box, style=filled, label="1
+(16/4)
+", weight=4]
+1451 -> 1452 [ label = "h"];
+"1453" [shape=box, style=filled, label="population
+Info: 0.87
+Entropy: 0.92
+Dominant class: [1 8]
+", weight=4]
+1451 -> 1453 [ label = "k"];
+"1454" [shape=box, style=filled, label="1
+(8/4)
+", weight=5]
+1453 -> 1454 [ label = "a"];
+"1455" [shape=box, style=filled, label="1
+(8/4)
+", weight=5]
+1453 -> 1455 [ label = "c"];
+"1456" [shape=box, style=filled, label="1
+(8/4)
+", weight=5]
+1453 -> 1456 [ label = "n"];
+"1457" [shape=box, style=filled, label="capshape
+Info: 0.80
+Entropy: 0.81
+Dominant class: [1 6]
+", weight=5]
+1453 -> 1457 [ label = "s"];
+"1458" [shape=box, style=filled, label="1
+(6/2)
+", weight=6]
+1457 -> 1458 [ label = "b"];
+"1459" [shape=box, style=filled, label="1
+(6/2)
+", weight=6]
+1457 -> 1459 [ label = "c"];
+"1460" [shape=box, style=filled, label="capcolor
+Info: 0.40
+Entropy: 0.72
+Dominant class: [1 4]
+", weight=6]
+1457 -> 1460 [ label = "f"];
+"1461" [shape=box, style=filled, label="1
+(4/1)
+", weight=7]
+1460 -> 1461 [ label = "b"];
+"1462" [shape=box, style=filled, label="1
+(4/1)
+", weight=7]
+1460 -> 1462 [ label = "c"];
+"1463" [shape=box, style=filled, label="1
+(4/1)
+", weight=7]
+1460 -> 1463 [ label = "e"];
+"1464" [shape=box, style=filled, label="1
+(4/1)
+", weight=7]
+1460 -> 1464 [ label = "g"];
+"1465" [shape=box, style=filled, label="habitat
+Info: 0.00
+Entropy: 1.00
+Dominant class: [0 1]
+", weight=7]
+1460 -> 1465 [ label = "n"];
+"1466" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+1465 -> 1466 [ label = "d"];
+"1467" [shape=box, style=filled, label="1
+(1)
+", weight=8]
+1465 -> 1467 [ label = "g"];
+"1468" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+1465 -> 1468 [ label = "l"];
+"1469" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+1465 -> 1469 [ label = "m"];
+"1470" [shape=box, style=filled, label="0
+(1/1)
+", weight=8]
+1465 -> 1470 [ label = "p"];
+"1471" [shape=box, style=filled, label="0
+(1)
+", weight=8]
+1465 -> 1471 [ label = "u"];
+"1472" [shape=box, style=filled, label="1
+(4/1)
+", weight=7]
+1460 -> 1472 [ label = "p"];
+"1473" [shape=box, style=filled, label="1
+(3)
+", weight=7]
+1460 -> 1473 [ label = "w"];
+"1474" [shape=box, style=filled, label="1
+(4/1)
+", weight=7]
+1460 -> 1474 [ label = "y"];
+"1475" [shape=box, style=filled, label="1
+(6/2)
+", weight=6]
+1457 -> 1475 [ label = "k"];
+"1476" [shape=box, style=filled, label="1
+(6/2)
+", weight=6]
+1457 -> 1476 [ label = "s"];
+"1477" [shape=box, style=filled, label="capcolor
+Info: 0.00
+Entropy: 0.92
+Dominant class: [1 2]
+", weight=6]
+1457 -> 1477 [ label = "x"];
+"1478" [shape=box, style=filled, label="1
+(2/1)
+", weight=7]
+1477 -> 1478 [ label = "b"];
+"1479" [shape=box, style=filled, label="1
+(2/1)
+", weight=7]
+1477 -> 1479 [ label = "c"];
+"1480" [shape=box, style=filled, label="1
+(2/1)
+", weight=7]
+1477 -> 1480 [ label = "e"];
+"1481" [shape=box, style=filled, label="1
+(2/1)
+", weight=7]
+1477 -> 1481 [ label = "g"];
+"1482" [shape=box, style=filled, label="1
+(2)
+", weight=7]
+1477 -> 1482 [ label = "n"];
+"1483" [shape=box, style=filled, label="1
+(2/1)
+", weight=7]
+1477 -> 1483 [ label = "p"];
+"1484" [shape=box, style=filled, label="0
+(1)
+", weight=7]
+1477 -> 1484 [ label = "w"];
+"1485" [shape=box, style=filled, label="1
+(2/1)
+", weight=7]
+1477 -> 1485 [ label = "y"];
+"1486" [shape=box, style=filled, label="capsurface
+Info: 0.69
+Entropy: 1.00
+Dominant class: [0 2]
+", weight=5]
+1453 -> 1486 [ label = "v"];
+"1487" [shape=box, style=filled, label="0
+(2/2)
+", weight=6]
+1486 -> 1487 [ label = "f"];
+"1488" [shape=box, style=filled, label="0
+(2/2)
+", weight=6]
+1486 -> 1488 [ label = "g"];
+"1489" [shape=box, style=filled, label="1
+(1)
+", weight=6]
+1486 -> 1489 [ label = "s"];
+"1490" [shape=box, style=filled, label="1
+(2/1)
+", weight=6]
+1486 -> 1490 [ label = "y"];
+"1491" [shape=box, style=filled, label="1
+(8/4)
+", weight=5]
+1453 -> 1491 [ label = "y"];
+"1492" [shape=box, style=filled, label="1
+(8)
+", weight=4]
+1451 -> 1492 [ label = "n"];
+"1493" [shape=box, style=filled, label="1
+(16/4)
+", weight=4]
+1451 -> 1493 [ label = "r"];
+"1494" [shape=box, style=filled, label="1
+(16/4)
+", weight=4]
+1451 -> 1494 [ label = "u"];
+"1495" [shape=box, style=filled, label="1
+(16/4)
+", weight=4]
+1451 -> 1495 [ label = "w"];
+"1496" [shape=box, style=filled, label="1
+(64/9)
+", weight=3]
+1381 -> 1496 [ label = "y"];
+{rank=same; 0;};
+{rank=same; 672;673;674;675;676;677;837;838;839;840;841;842;928;929;930;931;932;933;934;1156;1157;1158;1159;1310;1313;1314;1315;};
+{rank=same; 1311;1312;};
+{rank=same; 1;127;157;526;602;603;1381;};
+{rank=same; 2;3;63;64;125;126;128;129;130;131;140;141;155;156;158;233;234;235;397;398;399;400;527;528;529;530;557;558;559;560;601;604;605;986;1349;1367;1368;1382;1383;1384;1419;1426;1449;1450;1451;1496;};
+{rank=same; 4;5;6;13;28;35;36;37;62;65;66;67;68;69;70;71;93;132;139;142;143;144;145;146;151;152;153;154;159;160;161;205;206;207;236;271;272;273;330;360;396;401;421;422;423;437;524;525;531;532;553;554;555;556;561;562;563;564;565;578;579;600;606;613;652;717;780;880;881;941;985;987;988;989;1088;1235;1323;1324;1348;1350;1351;1352;1353;1354;1355;1364;1365;1366;1369;1370;1371;1372;1377;1378;1379;1380;1385;1386;1387;1418;1420;1421;1422;1423;1424;1425;1427;1428;1429;1430;1452;1453;1492;1493;1494;1495;};
+{rank=same; 7;8;9;10;11;12;14;15;16;25;26;27;29;30;31;32;33;34;38;39;58;59;60;61;72;73;89;90;91;92;94;95;96;124;133;134;135;136;137;138;147;148;149;150;162;163;178;179;180;181;182;183;204;208;209;210;211;212;229;230;231;232;237;238;239;240;247;269;270;274;288;304;305;306;329;331;332;333;334;345;358;359;361;362;363;364;365;366;367;368;395;402;403;404;405;406;419;420;424;431;432;433;434;435;436;438;458;484;485;486;520;521;522;523;533;534;535;536;537;550;551;552;566;567;568;575;576;577;580;581;582;593;594;595;607;608;609;610;611;612;614;631;632;651;653;654;655;686;687;694;718;733;734;735;750;779;781;863;864;879;882;883;884;898;899;900;940;942;943;944;960;961;962;984;990;991;992;1021;1022;1070;1087;1089;1090;1111;1112;1137;1175;1176;1216;1234;1236;1237;1238;1268;1269;1270;1322;1325;1326;1327;1342;1343;1344;1345;1346;1347;1356;1357;1358;1359;1360;1361;1362;1363;1373;1374;1375;1376;1388;1389;1408;1415;1416;1417;1431;1432;1445;1446;1447;1448;1454;1455;1456;1457;1486;1491;};
+{rank=same; 17;18;19;20;21;22;23;24;40;41;56;57;74;75;76;83;84;85;86;87;88;97;116;117;118;119;120;121;122;123;164;175;176;177;184;191;192;203;213;214;215;228;241;242;243;244;245;246;248;249;250;251;252;268;275;280;281;282;283;284;285;286;287;289;290;291;292;293;303;307;308;309;310;326;327;328;335;336;337;338;339;340;346;347;354;355;356;357;369;388;389;394;407;408;409;410;411;418;425;426;427;428;429;430;439;440;441;442;443;444;459;460;461;462;463;483;487;488;489;490;501;518;519;538;539;540;547;548;549;569;570;571;572;573;574;583;584;585;592;596;597;598;599;615;616;617;618;619;628;629;630;633;634;635;636;637;638;639;650;656;657;658;659;664;665;666;685;688;689;690;691;692;693;695;696;697;716;719;730;731;732;736;747;748;749;751;752;753;754;755;756;782;783;784;805;813;846;847;862;865;874;875;876;877;878;885;886;887;888;889;896;897;901;902;903;912;913;914;945;946;947;956;957;958;959;963;964;965;979;980;981;982;983;993;994;995;996;997;998;1020;1023;1024;1025;1047;1048;1068;1069;1071;1072;1073;1083;1084;1085;1086;1091;1092;1093;1094;1095;1096;1113;1114;1115;1116;1117;1129;1138;1139;1140;1172;1173;1174;1177;1178;1179;1180;1181;1201;1215;1217;1218;1219;1220;1239;1240;1241;1242;1243;1244;1271;1289;1290;1291;1292;1321;1328;1329;1330;1331;1332;1333;1390;1391;1404;1405;1406;1407;1409;1410;1411;1412;1413;1414;1433;1434;1435;1442;1443;1444;1458;1459;1460;1475;1476;1477;1487;1488;1489;1490;};
+{rank=same; 42;43;44;45;46;47;48;49;77;78;79;80;81;82;98;111;112;113;114;115;165;166;167;174;185;186;187;188;189;190;193;194;195;202;216;217;218;219;226;227;253;254;255;256;257;264;265;266;267;276;277;278;279;294;295;296;297;298;299;300;301;302;311;312;319;320;321;322;323;324;325;341;342;343;344;348;349;350;351;352;353;370;371;372;373;374;375;390;391;392;393;412;413;414;415;416;417;445;446;447;448;455;456;457;464;465;466;480;481;482;491;492;493;494;502;503;504;505;506;507;541;542;543;544;545;546;586;587;588;589;590;591;620;625;626;627;640;641;642;643;648;649;660;661;662;663;667;682;683;684;698;699;700;701;714;715;720;721;722;727;728;729;737;738;739;740;741;742;757;758;759;768;769;777;778;785;786;787;788;789;790;804;806;807;808;809;810;811;812;814;815;816;823;824;825;845;848;849;850;855;856;857;866;867;868;869;870;871;872;873;890;891;892;893;894;895;904;905;906;907;908;909;910;911;915;916;917;918;919;920;948;949;950;951;952;953;954;955;966;967;968;976;977;978;999;1000;1001;1002;1009;1010;1011;1012;1019;1026;1027;1028;1029;1030;1031;1032;1045;1046;1049;1050;1051;1052;1059;1060;1061;1062;1067;1074;1075;1076;1077;1078;1079;1080;1081;1082;1097;1108;1109;1110;1118;1119;1120;1121;1122;1123;1128;1130;1131;1132;1133;1134;1135;1136;1141;1142;1143;1144;1145;1146;1182;1183;1184;1191;1192;1193;1200;1202;1203;1204;1212;1213;1214;1221;1222;1223;1230;1231;1232;1233;1245;1246;1247;1248;1249;1257;1258;1266;1267;1272;1273;1274;1275;1284;1285;1286;1287;1288;1293;1294;1295;1296;1297;1317;1318;1319;1320;1334;1335;1336;1341;1392;1393;1394;1395;1396;1397;1436;1437;1438;1439;1440;1441;1461;1462;1463;1464;1465;1472;1473;1474;1478;1479;1480;1481;1482;1483;1484;1485;};
+{rank=same; 50;51;52;53;54;55;99;100;101;108;109;110;168;169;170;171;172;173;196;197;198;199;200;201;220;221;222;223;224;225;258;259;260;261;262;263;313;314;315;316;317;318;376;377;378;385;386;387;449;450;451;452;453;454;467;468;469;470;477;478;479;495;496;497;498;499;500;508;515;516;517;621;622;623;624;644;645;646;647;668;679;680;681;702;703;704;705;710;711;712;713;723;724;725;726;743;744;745;746;760;761;762;763;764;765;766;767;770;771;772;773;774;775;776;791;792;793;794;795;796;817;818;819;820;821;822;826;827;828;829;830;831;851;852;853;854;858;859;860;861;921;922;923;924;969;970;971;972;973;974;975;1003;1004;1005;1006;1007;1008;1013;1014;1015;1016;1017;1018;1033;1034;1035;1042;1043;1044;1053;1054;1055;1056;1057;1058;1063;1064;1065;1066;1098;1105;1106;1107;1124;1125;1126;1127;1147;1148;1149;1161;1162;1170;1171;1185;1186;1187;1188;1189;1190;1194;1195;1196;1197;1198;1199;1205;1206;1207;1208;1209;1210;1211;1224;1225;1226;1227;1228;1229;1250;1251;1252;1253;1254;1255;1256;1259;1260;1261;1262;1263;1264;1265;1276;1281;1282;1283;1298;1299;1300;1301;1302;1303;1316;1337;1338;1339;1340;1398;1399;1400;1401;1402;1403;1466;1467;1468;1469;1470;1471;};
+{rank=same; 102;103;104;105;106;107;379;380;381;382;383;384;471;472;473;474;475;476;509;510;511;512;513;514;669;670;671;678;706;707;708;709;797;798;799;800;801;802;803;832;833;834;835;836;843;844;925;926;927;935;936;937;938;939;1036;1037;1038;1039;1040;1041;1099;1100;1101;1102;1103;1104;1150;1151;1152;1153;1154;1155;1160;1163;1164;1165;1166;1167;1168;1169;1277;1278;1279;1280;1304;1305;1306;1307;1308;1309;};
+}
